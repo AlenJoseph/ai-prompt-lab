@@ -193,7 +193,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/AlenJoseph/ai-prompt-lab/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/AlenJoseph/ai-prompt-lab/discussions)
-- **Email**: [Your contact if applicable]
+- **Email**: alenjoseph333@gmail.com
 
 ---
 
