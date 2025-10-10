@@ -1,0 +1,19 @@
+{
+  "id": "edu-001",
+  "title": "Explain a concept simply",
+  "category": "education",
+  "goal": "Help users understand complex topics clearly",
+  "prompt": "Explain {concept} like I'm 10 years old.",
+  "variables": ["concept"],
+  "tags": ["education", "simplify", "clarity"],
+  "models_tested": ["gpt-5"],
+  "responses": {
+    "gpt-5": "Photosynthesis is how plants make food using sunlight."
+  },
+  "score": {
+    "clarity": 5,
+    "accuracy": 5,
+    "creativity": 4
+  },
+  "last_updated": "2025-10-10"
+}

@@ -3,57 +3,116 @@
   "title": "Prompt Schema",
   "description": "Schema for validating AI prompts",
   "type": "object",
+  "required": ["id", "title", "category", "prompt", "responses"],
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique identifier for the prompt"
+      "description": "Unique identifier for the prompt",
+      "pattern": "^[a-z0-9-]+$"
     },
     "title": {
       "type": "string",
-      "description": "Title of the prompt"
+      "description": "Title of the prompt",
+      "minLength": 1,
+      "maxLength": 200
     },
     "category": {
       "type": "string",
       "enum": ["education", "creative", "productivity", "coding"],
       "description": "Category of the prompt"
     },
-    "description": {
+    "goal": {
       "type": "string",
-      "description": "Brief description of what the prompt does"
+      "description": "The objective or purpose of this prompt"
     },
     "prompt": {
       "type": "string",
-      "description": "The actual prompt text"
+      "description": "The actual prompt text",
+      "minLength": 1
     },
     "variables": {
       "type": "array",
       "description": "Variables that can be substituted in the prompt",
       "items": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          },
-          "required": {
-            "type": "boolean"
-          }
-        },
-        "required": ["name", "description"]
+        "type": "string"
       }
     },
     "tags": {
       "type": "array",
+      "description": "Tags for categorizing and searching prompts",
       "items": {
         "type": "string"
-      },
-      "description": "Tags for categorizing and searching prompts"
+      }
+    },
+    "models_tested": {
+      "type": "array",
+      "description": "List of AI models tested with this prompt",
+      "items": {
+        "type": "string"
+      }
+    },
+    "responses": {
+      "type": "object",
+      "description": "Responses from different models (key: model name, value: response)",
+      "patternProperties": {
+        ".*": {
+          "type": "string"
+        }
+      }
+    },
+    "score": {
+      "type": "object",
+      "description": "Evaluation scores for the prompt",
+      "properties": {
+        "clarity": {
+          "type": "number",
+          "description": "Clarity score (1-5)",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "accuracy": {
+          "type": "number",
+          "description": "Accuracy score (1-5)",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "creativity": {
+          "type": "number",
+          "description": "Creativity score (1-5)",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "effectiveness": {
+          "type": "number",
+          "description": "Overall effectiveness score (1-5)",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reusability": {
+          "type": "number",
+          "description": "Reusability score (1-5)",
+          "minimum": 1,
+          "maximum": 5
+        }
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Last update date in YYYY-MM-DD format"
+    },
+    "created_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Creation date in YYYY-MM-DD format"
+    },
+    "author": {
+      "type": "string",
+      "description": "Author or contributor name"
     },
     "examples": {
       "type": "array",
-      "description": "Example outputs or use cases",
+      "description": "Example inputs and expected outputs",
       "items": {
         "type": "object",
         "properties": {
@@ -66,6 +125,5 @@
         }
       }
     }
-  },
-  "required": ["id", "title", "category", "prompt"]
+  }
 }

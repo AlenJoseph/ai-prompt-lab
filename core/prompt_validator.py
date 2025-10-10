@@ -61,18 +61,34 @@ class PromptValidator:
 
 
 if __name__ == "__main__":
-    # Example usage
+    import sys
+    
     validator = PromptValidator()
     
-    example_prompt = {
-        "id": "example-001",
-        "title": "Example Prompt",
-        "category": "education",
-        "prompt": "This is an example prompt"
-    }
-    
-    is_valid, error = validator.validate_prompt(example_prompt)
-    if is_valid:
-        print("✓ Prompt is valid")
+    # If a file path is provided as argument, validate that file
+    if len(sys.argv) > 1:
+        file_path = sys.argv[1]
+        is_valid, error = validator.validate_prompt_file(file_path)
+        if is_valid:
+            print(f"✅ {file_path} passed validation.")
+        else:
+            print(f"❌ Validation error in {file_path}:")
+            print(f"   {error}")
+            sys.exit(1)
     else:
-        print(f"✗ Validation error: {error}")
+        # Example usage
+        example_prompt = {
+            "id": "example-001",
+            "title": "Example Prompt",
+            "category": "education",
+            "prompt": "This is an example prompt",
+            "responses": {
+                "gpt-4": "Example response"
+            }
+        }
+        
+        is_valid, error = validator.validate_prompt(example_prompt)
+        if is_valid:
+            print("✓ Prompt is valid")
+        else:
+            print(f"✗ Validation error: {error}")
