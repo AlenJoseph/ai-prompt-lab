@@ -1,0 +1,19 @@
+{
+  "id": "code-004",
+  "title": "Project Structure Validator with Guidelines",
+  "category": "coding",
+  "goal": "Validate project folder structure based on project-specific rules defined in `guidelines.json` and file content.",
+  "prompt": "Scan the project under `{root_folder}`. Automatic Preprocessing: 1. Extract the full directory tree to build `{project_structure}`. 2. Read partial contents of each file to build `{file_contents}`. 3. Read project rules and folder mapping from `{root_folder}/guidelines.json`. Validation Rules: 1. Ensure each file is located in the folder as defined by the rules in `guidelines.json`. 2. Identify misplaced files with reasoning. 3. Suggest the correct folder placement without modifying any files.",
+  "variables": [
+    "root_folder"
+  ],
+  "tags": [
+    "project-structure",
+    "naming-conventions",
+    "code-quality",
+    "linting"
+  ],
+  "models_tested": ["GPT-5-mini"],
+  "responses": "",
+  "last_updated": "2025-10-10"
+}
