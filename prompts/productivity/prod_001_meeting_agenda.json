@@ -1,0 +1,22 @@
+{
+  "id": "prod-001",
+  "title": "Meeting agenda creator",
+  "category": "productivity",
+  "goal": "Generate structured meeting agendas to improve meeting efficiency",
+  "prompt": "Create a professional meeting agenda for a {meeting_type} meeting about {topic}. Duration: {duration} minutes. Include: objectives, discussion topics with time allocations, action items template, and next steps.",
+  "variables": ["meeting_type", "topic", "duration"],
+  "tags": ["productivity", "meetings", "planning", "business"],
+  "models_tested": ["gpt-4", "gemini-pro"],
+  "responses": {
+    "gpt-4": "MEETING AGENDA\n\nType: Team Standup\nTopic: Q4 Product Launch\nDuration: 30 minutes\n\nOBJECTIVES:\n1. Align on launch timeline\n2. Identify blockers\n3. Assign action items...",
+    "gemini-pro": "Meeting Agenda - Team Standup (Q4 Product Launch)\n\n1. Opening (2 min)\n   - Quick wins from yesterday..."
+  },
+  "score": {
+    "clarity": 5,
+    "accuracy": 5,
+    "creativity": 3,
+    "effectiveness": 5,
+    "reusability": 5
+  },
+  "last_updated": "2025-10-10"
+}

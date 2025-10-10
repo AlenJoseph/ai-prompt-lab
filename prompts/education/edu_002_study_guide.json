@@ -1,0 +1,22 @@
+{
+  "id": "edu-002",
+  "title": "Study guide generator",
+  "category": "education",
+  "goal": "Create comprehensive study guides for any topic",
+  "prompt": "Create a detailed study guide for {topic}. Include: key concepts, definitions, examples, practice questions, and mnemonics to remember important information.",
+  "variables": ["topic"],
+  "tags": ["education", "study", "learning", "exam-prep"],
+  "models_tested": ["gpt-4", "claude-3"],
+  "responses": {
+    "gpt-4": "Study Guide: Photosynthesis\n\nKey Concepts:\n1. Energy conversion from light to chemical\n2. Chlorophyll's role\n3. Oxygen production\n\nDefinitions:\n- Photosynthesis: Process by which plants convert light energy...",
+    "claude-3": "# Study Guide: Photosynthesis\n\n## Core Concepts\n1. Light-dependent reactions\n2. Calvin cycle..."
+  },
+  "score": {
+    "clarity": 5,
+    "accuracy": 5,
+    "creativity": 4,
+    "effectiveness": 5
+  },
+  "last_updated": "2025-10-10",
+  "author": "Community"
+}

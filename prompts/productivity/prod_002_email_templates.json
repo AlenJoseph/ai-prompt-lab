@@ -1,0 +1,20 @@
+{
+  "id": "prod-002",
+  "title": "Email response templates",
+  "category": "productivity",
+  "goal": "Generate professional email responses for common scenarios",
+  "prompt": "Write a professional email response to {scenario}. Tone: {tone}. Keep it concise, clear, and actionable. Include appropriate greeting and signature placeholder.",
+  "variables": ["scenario", "tone"],
+  "tags": ["productivity", "communication", "email", "business-writing"],
+  "models_tested": ["gpt-4"],
+  "responses": {
+    "gpt-4": "Subject: Re: Project Deadline Extension Request\n\nHi [Name],\n\nThank you for reaching out regarding the deadline extension..."
+  },
+  "score": {
+    "clarity": 5,
+    "accuracy": 5,
+    "creativity": 3,
+    "effectiveness": 5
+  },
+  "last_updated": "2025-10-10"
+}

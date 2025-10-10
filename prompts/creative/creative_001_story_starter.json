@@ -1,0 +1,21 @@
+{
+  "id": "creative-001",
+  "title": "Story starter generator",
+  "category": "creative",
+  "goal": "Generate engaging story openings to overcome writer's block",
+  "prompt": "Write an engaging opening paragraph for a {genre} story that includes: {element1}, {element2}, and creates immediate intrigue. Make the reader want to know what happens next.",
+  "variables": ["genre", "element1", "element2"],
+  "tags": ["creative-writing", "fiction", "storytelling", "writing-prompts"],
+  "models_tested": ["gpt-4", "claude-3"],
+  "responses": {
+    "gpt-4": "The quantum lock shimmered with an otherworldly blue light as Dr. Sarah Chen's fingers trembled over the keypad. She had exactly three minutes before the facility's AI would detect the breach, and the secret she'd just uncovered would die with her in the subzero containment chamber.",
+    "claude-3": "Detective Maria Rodriguez had seen her share of crime scenes, but nothing had prepared her for the antique mirror standing untouched in the center of the burned-out mansion—its surface rippling like water, showing not her reflection but a room that shouldn't exist."
+  },
+  "score": {
+    "clarity": 4,
+    "accuracy": 5,
+    "creativity": 5,
+    "effectiveness": 5
+  },
+  "last_updated": "2025-10-10"
+}

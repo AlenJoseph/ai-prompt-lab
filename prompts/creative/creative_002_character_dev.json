@@ -1,0 +1,21 @@
+{
+  "id": "creative-002",
+  "title": "Character development assistant",
+  "category": "creative",
+  "goal": "Create deep, believable characters with rich backstories",
+  "prompt": "Create a detailed character profile for a {character_type} in a {genre} story. Include: physical description, personality traits, backstory, motivations, fears, quirks, and character arc potential.",
+  "variables": ["character_type", "genre"],
+  "tags": ["creative-writing", "character-development", "fiction", "worldbuilding"],
+  "models_tested": ["gpt-4"],
+  "responses": {
+    "gpt-4": "Character Profile: The Reluctant Hero in a Sci-Fi Epic\n\nName: Zara Okonkwo\n\nPhysical Description:\n- Age: 28\n- Height: 5'9\"\n- Dark brown skin with cybernetic implants..."
+  },
+  "score": {
+    "clarity": 5,
+    "accuracy": 4,
+    "creativity": 5,
+    "effectiveness": 5,
+    "reusability": 5
+  },
+  "last_updated": "2025-10-10"
+}

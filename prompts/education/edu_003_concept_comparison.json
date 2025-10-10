@@ -1,0 +1,21 @@
+{
+  "id": "edu-003",
+  "title": "Concept comparison tool",
+  "category": "education",
+  "goal": "Help students understand differences and similarities between related concepts",
+  "prompt": "Compare and contrast {concept1} and {concept2}. Create a table showing: similarities, differences, use cases, advantages, and disadvantages of each.",
+  "variables": ["concept1", "concept2"],
+  "tags": ["education", "comparison", "analysis", "critical-thinking"],
+  "models_tested": ["gpt-4"],
+  "responses": {
+    "gpt-4": "| Aspect | Photosynthesis | Cellular Respiration |\n|--------|---------------|---------------------|\n| Purpose | Produce glucose | Break down glucose |..."
+  },
+  "score": {
+    "clarity": 5,
+    "accuracy": 5,
+    "creativity": 3,
+    "effectiveness": 5,
+    "reusability": 5
+  },
+  "last_updated": "2025-10-10"
+}

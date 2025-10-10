@@ -1,0 +1,22 @@
+{
+  "id": "code-001",
+  "title": "Code review assistant",
+  "category": "coding",
+  "goal": "Provide constructive code review feedback",
+  "prompt": "Review this {language} code for: 1) Bugs and errors, 2) Performance issues, 3) Security vulnerabilities, 4) Code style and best practices, 5) Suggestions for improvement.\n\nCode:\n```\n{code}\n```",
+  "variables": ["language", "code"],
+  "tags": ["coding", "code-review", "debugging", "best-practices"],
+  "models_tested": ["gpt-4", "claude-3"],
+  "responses": {
+    "gpt-4": "Code Review for Python:\n\n✅ Strengths:\n- Clear variable naming\n- Good error handling\n\n⚠️ Issues Found:\n1. Performance: O(n²) complexity in nested loop...",
+    "claude-3": "## Code Review Summary\n\n### Critical Issues (2)\n1. SQL Injection vulnerability on line 15..."
+  },
+  "score": {
+    "clarity": 5,
+    "accuracy": 5,
+    "creativity": 3,
+    "effectiveness": 5,
+    "reusability": 5
+  },
+  "last_updated": "2025-10-10"
+}

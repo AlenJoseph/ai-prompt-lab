@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# AI Prompt Lab - Pre-commit Hook
+# This script runs validation checks before allowing a commit
+
+echo "🔍 Running pre-commit checks..."
+
+# Activate virtual environment if it exists
+if [ -d "venv" ]; then
+    source venv/bin/activate
+fi
+
+# Check if required tools are installed
+if ! command -v python &> /dev/null; then
+    echo "❌ Python is not installed"
+    exit 1
+fi
+
+# Validate all prompts
+echo "📝 Validating prompts..."
+python core/prompt_validator.py prompts/
+if [ $? -ne 0 ]; then
+    echo "❌ Prompt validation failed"
+    echo "💡 Fix validation errors before committing"
+    exit 1
+fi
+
+# Check JSON formatting
+echo "🔍 Checking JSON formatting..."
+python -c "
+import json
+from pathlib import Path
+errors = []
+for f in Path('prompts').rglob('*.json'):
+    try:
+        with open(f) as file:
+            content = file.read()
+            json.loads(content)
+            # Check if properly formatted (indented)
+            if '  ' not in content and len(content) > 50:
+                errors.append(f'{f}: Not properly indented')
+    except Exception as e:
+        errors.append(f'{f}: {e}')
+if errors:
+    print('JSON formatting errors:')
+    for e in errors:
+        print(f'  - {e}')
+    exit(1)
+"
+if [ $? -ne 0 ]; then
+    echo "❌ JSON formatting check failed"
+    exit 1
+fi
+
+echo "✅ All pre-commit checks passed!"
+echo "🚀 Proceeding with commit..."
+exit 0

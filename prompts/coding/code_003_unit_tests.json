@@ -1,0 +1,22 @@
+{
+  "id": "code-003",
+  "title": "Unit test generator",
+  "category": "coding",
+  "goal": "Generate comprehensive unit tests for code",
+  "prompt": "Generate unit tests for this {language} function using {test_framework}. Include: 1) Happy path tests, 2) Edge cases, 3) Error handling tests, 4) Boundary conditions.\n\nCode:\n```{language}\n{code}\n```",
+  "variables": ["language", "test_framework", "code"],
+  "tags": ["coding", "testing", "unit-tests", "tdd"],
+  "models_tested": ["gpt-4", "claude-3"],
+  "responses": {
+    "gpt-4": "import pytest\n\ndef test_calculate_fibonacci_base_cases():\n    assert calculate_fibonacci(0) == 0\n    assert calculate_fibonacci(1) == 1...",
+    "claude-3": "# Test Suite for calculate_fibonacci\n\nclass TestFibonacci:\n    def test_zero_returns_zero(self)..."
+  },
+  "score": {
+    "clarity": 5,
+    "accuracy": 5,
+    "creativity": 3,
+    "effectiveness": 5,
+    "reusability": 5
+  },
+  "last_updated": "2025-10-10"
+}
