@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Prompt Schema",
+  "description": "Schema for validating AI prompts",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the prompt"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the prompt"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["education", "creative", "productivity", "coding"],
+      "description": "Category of the prompt"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of what the prompt does"
+    },
+    "prompt": {
+      "type": "string",
+      "description": "The actual prompt text"
+    },
+    "variables": {
+      "type": "array",
+      "description": "Variables that can be substituted in the prompt",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "required": {
+            "type": "boolean"
+          }
+        },
+        "required": ["name", "description"]
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags for categorizing and searching prompts"
+    },
+    "examples": {
+      "type": "array",
+      "description": "Example outputs or use cases",
+      "items": {
+        "type": "object",
+        "properties": {
+          "input": {
+            "type": "string"
+          },
+          "output": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": ["id", "title", "category", "prompt"]
+}
