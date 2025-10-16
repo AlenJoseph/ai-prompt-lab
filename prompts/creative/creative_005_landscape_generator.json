@@ -1,0 +1,16 @@
+{
+  "id": "creative-005",
+  "title": "Landscape generator",
+  "category": "creative",
+  "goal": "Create image based the description given.",
+  "prompt": "Create a {mood} landscape featuring {main_subject} surrounded by {environment_details}.",
+  "variables": ["mood", "main_subject", "environment_details"],
+  "tags": ["landscape","creative","image generation","art"],
+  "models_tested": ["gpt-5","gemini-2.5","claude-3"],
+  "responses": {
+    "gpt-5":" http://googleusercontent.com/image_generation_content/0",
+    "gemini-2.5": "http://googleusercontent.com/image_generation_content/0",
+    "claude-3": "I've created a peaceful autumn cabin landscape for you! The scene features:\n\n✓ **A cozy wooden cabin** with a door, windows, and a chimney with gentle smoke\n\n✓ **Autumn trees** in warm oranges, browns, and reds surrounding the cabin from all angles\n\n✓ **Swaying trees** that gently move back and forth for a peaceful, natural feel\n\n✓ **Falling leaves** that float through the air\n\n✓ **Soft, warm lighting** with a gentle sun and a gradient sky\n\n✓ **Serene details** like a path leading to the cabin and grassy areas\n\nThe animation brings the scene to life with subtle movements—the trees sway gently in the breeze, smoke rises from the chimney, and leaves drift peacefully through the autumn air. It captures that quiet, tranquil feeling of a secluded cabin retreat in fall! "
+  },
+  "last_updated": "2025-10-16"
+}

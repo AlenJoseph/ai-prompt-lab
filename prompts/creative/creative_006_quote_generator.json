@@ -1,0 +1,16 @@
+{
+  "id": "creative-006",
+  "title": "Quote generator",
+  "category": "creative",
+  "goal": "Generate quote based on the topic.",
+  "prompt": "Write a short quote about {emotion} using poetic language.",
+  "variables": ["emotion"],
+  "tags": ["quote","creative","inspiration","poetry"],
+  "models_tested": ["gpt-5","gemini-2.5","claude-3"],
+  "responses": {
+    "gpt-5":"“Hope is the quiet dawn that follows the darkest night, whispering that even shadows cannot silence the light.” ✨" ,
+    "gemini-2.5":"Hope is the quiet ember glowing beneath the ash, waiting for the wind to call it flame.",
+    "claude-3":"# A Short Quote About Hope\n\n*Hope is the golden thread that weaves through the darkest tapestry of our days—a whisper of light that refuses to be silenced, reminding us that even in the deepest winter of the soul, spring is always learning to bloom again.*"
+  },
+  "last_updated": "2025-10-16"
+}
