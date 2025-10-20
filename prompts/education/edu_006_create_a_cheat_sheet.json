@@ -1,0 +1,18 @@
+{
+  "id": "edu-006",
+  "title": "Create a cheat sheet",
+  "category": "education",
+  "goal": "Help users quickly revise a topic by summarizing formulas and key points",
+  "prompt": "Create a cheat sheet for {topic} with formulas and key points.",
+  "variables": [
+    "topic"
+  ],
+  "tags": [
+    "education"
+  ],
+  "models_tested": ["llama3.2"],
+  "responses": {
+    "llama3.2": "**Cheat Sheet: Romanesque Architecture and Church of El Salvador**\n\n**Key Points:**\n\n* Romanesque architecture: Characterized by rounded arches, barrel vaults, and squat towers\n* Church of El Salvador: A Romanesque building in Spain, built in the 11th-16th centuries\n* Associated with the old medieval castle in Luesia village\n\n**Formulas and Key Concepts:**\n\n* **Romanesque Orders:**\n        + Tuscan: Simple, unadorned columns (often used as supporting columns)\n        + Ionic: Classic Greek columns with scroll-like volutes\n        + Corinthian: Classical Greek columns with acanthus leaves\n* **Arches and Vaults:**\n        + Rounded arches: Used in Romanesque architecture to cover openings\n        + Barrel vaults: A type of vault with a curved ceiling, often used in Romanesque churches\n* **Construction Techniques:**\n        + Ashlar masonry: Construction using rectangular blocks of stone (often used in Romanesque buildings)\n        + Half-bonding: A technique used to create a stronger joint between two stones\n\n**Church of El Salvador's Architecture:**\n\n* Semicircular triple apse head with double crypt at the bottom\n* Body with three naves, built throughout the 12th century\n* Two portals on its southern fronts and occidental already respond to models from the beginning of the 13th century\n\n**Historical Timeline:**\n\n* 11th-12th centuries: Construction of the semicircular triple apse head and double crypt\n* Mid-16th century: Romanesque building underwent a profound reform\n\n**Sculptor and Altarpiece:**\n\n* Gaspar Ramos, a sculptor from Sangüesa\n* Main altarpiece is a Romanesque piece carved in wood, polychrome and gilt (attributed to 1630)\n\nThis cheat sheet provides an overview of the key points, formulas, and concepts related to Romanesque architecture and its relation to the Church of El Salvador."
+  },
+  "last_updated": "2025-10-15"
+}

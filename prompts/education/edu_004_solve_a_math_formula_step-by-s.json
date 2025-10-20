@@ -1,0 +1,19 @@
+{
+  "id": "edu-004",
+  "title": "Solve a math formula step-by-step",
+  "category": "education",
+  "goal": "Help users solve math formulas clearly with detailed reasoning",
+  "prompt": "Solve the formula {formula} step-by-step, showing all intermediate steps, simplifications, and the final answer. Explain what each variable represents.",
+  "variables": [
+    "formula"
+  ],
+  "tags": [
+    "education",
+    "maths"
+  ],
+  "models_tested": ["llama3.2"],
+  "responses": {
+    "llama3.2":"The formula you provided is a simple algebraic equation:\n\n15 = x + 2 - 10\n\nTo solve for the variable x, we need to isolate it on one side of the equation.\n\nStep 1: Combine the constants on the right-hand side of the equation\n- 10 and 2 are both constants, so we can combine them:\n15 = x + (-8)\n\nStep 2: Add 8 to both sides of the equation\n15 + 8 = x + (-8) + 8\n23 = x\n\nAnalysis of the variables:\n* x: This represents an unknown quantity or value.\n* The numbers on the right-hand side of the equation (2 and -10): constants.\n\nFinal solution:\n23 = x → x = 23"
+  },
+  "last_updated": "2025-10-15"
+}

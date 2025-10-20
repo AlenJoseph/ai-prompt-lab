@@ -1,0 +1,18 @@
+{
+  "id": "edu-005",
+  "title": "Generate a quiz from text",
+  "category": "education",
+  "goal": "Create practice quizzes from any text for learning and review",
+  "prompt": "Generate a quiz from the text {input_text}, including multiple-choice, true/false, and short-answer questions, with correct answers and brief explanations.",
+  "variables": [
+    "input_text"
+  ],
+  "tags": [
+    "education"
+  ],
+  "models_tested": ["llama3.2"],
+  "responses": {
+    "llama3.2": "**Multiple-Choice Questions**\n\n1. Where is the Church of El Salvador located?\na) In the heart of Zaragoza\nb) In the highest area of the nucleus of Luesia village\nc) Near the old Romanesque bridge in Sangüesa\n\nCorrect answer: b) In the highest area of the nucleus of Luesia village\n\nExplanation: The church is located in the highest area of the nucleus of Luesia village, next to the remains of the old medieval castle.\n\n2. Which century did the semicircular triple apse head with a double crypt at the bottom date back to?\na) 11th century\nb) 12th century\nc) 13th century\n\nCorrect answer: a) 11th century\n\nExplanation: The text states that the origin of the church dates back to the end of the 11th century.\n\n3. Who is attributed to carving the main altarpiece in wood, polychrome and gilt?\na) Gaspar Ramos\nb) Juan de los Ángeles\nc) Master Elías\n\nCorrect answer: a) Gaspar Ramos\n\nExplanation: The text states that the work is attributed to Gaspar Ramos, a sculptor from Sangüesa.\n\n**True/False Questions**\n\n1. True or False: The Church of El Salvador was built in the 12th century.\n\nAnswer: FALSE (The body with three naves was built throughout the 12th century, but the semicircular triple apse head and double crypt date back to the 11th century.)\n\n2. True or False: The main altarpiece is a Gothic piece carved in stone.\n\nAnswer: FALSE (The text states that the main altarpiece is a Romanesque piece carved in wood, polychrome and gilt.)\n\n**Short-Answer Questions**\n\n1. What type of building is the Church of El Salvador?\n(Answer should be: Romanesque)\n\nExplanation: The text describes the church as \"Romanesque\", indicating its architectural style.\n\n2. When did the main altarpiece undergo a reform?\n(Answer should be: Mid-16th century)\n\nExplanation: The text states that the Romanesque building underwent a profound reform in the mid-16th century.\n\n**Essay Question**\n\nDescribe the historical and constructive association between the Church of El Salvador and the old medieval castle. (Answer should include details about the location, architecture, and history of both the church and the castle.)\n\nNote: The essay question requires more detailed and nuanced answers than the multiple-choice or short-answer questions."
+  },
+  "last_updated": "2025-10-15"
+}
