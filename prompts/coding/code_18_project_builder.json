@@ -1,0 +1,16 @@
+{
+  "id": "code-18",
+  "title": "project builder",
+  "category": "coding",
+  "goal": "Guide users in creating a complete project from scratch with detailed setup instructions, code examples, and explanations.",
+  "prompt": "I want to build a project about {project_topic} in {language}.The output should include a complete tutorial that I can follow from start to finish.",
+  "variables": ["project_topic", "language"],
+  "tags": ["project-setup", "tutorials", "coding", "development"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Perfect 👍 Let’s build a **Simple Login System in Python** together — step by step — from setup to final working code.\nThis project will help you understand how **user authentication** works (register, login, and password checking).\n\n---\n\n## 🧩 Project Overview\n\nWe’ll build a **command-line login system** where:\n\n* Users can **register** with a username and password.\n* Passwords are stored **securely (hashed)**.\n* Users can **log in** using their credentials.\n* The system will **remember** users using a text file (or JSON).\n\n---\n\n## 🛠️ Tools and Technologies\n\n| Tool | Purpose |\n|------|----------|\n| **Python 3.x** | Main programming language |\n| **hashlib** | For secure password hashing |\n| **JSON / text file** | To store user credentials |\n\n---\n\n## 📁 Folder Structure\n\n```\nlogin_system/\n│\n├── login.py\n├── users.json\n└── README.md\n```\n\n---\n\n## 🚀 Step-by-Step Tutorial\n\n(Full tutorial content continues here...)",
+    "gemini-2.5": "That sounds like a great project! Building a simple login system is an excellent way to learn core Python concepts like file handling, functions, and basic security (password hashing).\n\nI've prepared two files for you: the Python script that contains the entire system logic, and a detailed Markdown tutorial that walks you through setting it up and running it from start to finish.\n\n(Full Gemini code and explanation content continues here...)",
+    "claude-3": "# Complete Python Login System Tutorial\n\n## Project Overview\n\nIn this tutorial, you'll build a simple login system that:\n- Stores user credentials securely (with hashing)\n- Allows users to register new accounts\n- Validates login credentials\n- Uses a JSON file to persist user data\n- Includes password strength validation\n\n(Full Claude tutorial continues here...)"
+  },
+  "last_updated": "2025-11-01"
+}

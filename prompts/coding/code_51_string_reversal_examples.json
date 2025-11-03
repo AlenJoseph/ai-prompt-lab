@@ -1,0 +1,16 @@
+{
+  "id": "code-51",
+  "title": "String Reversal Examples",
+  "category": "coding",
+  "goal": "Provide simple code examples to reverse strings in {language}.",
+  "prompt": "Example 1: Input : Hello Output: olleH {reversed}. Example 2: Input :{string} Output:",
+  "variables": ["string"],
+  "tags": ["string-reversal", "coding-examples", "programming"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "**Input:** `World`\n**Output:** `dlroW {reversed}`",
+    "gemini-2.5": "**Input:** `World`\n**Output:** `dlroW {reversed}`",
+    "claude-3": "**Input:** `World`\n**Output:** `dlroW {reversed}`"
+  },
+  "last_updated": "2025-11-03"
+}

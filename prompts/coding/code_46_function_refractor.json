@@ -1,0 +1,16 @@
+{
+  "id": "code-46",
+  "title": "Function refractor",
+  "category": "coding",
+  "goal": "Rewrite a given code snippet using functions to improve structure and reusability.",
+  "prompt": "The following code snippet performs the {task}. {code} Rewrite the code using functions.",
+  "variables": ["task", "code"],
+  "tags": ["code-refractoring", "functions", "code-structure"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Sure! We can rewrite your code to use a function that adds two numbers and prints the result. Here's a simple example:\n\n```python\ndef add_numbers(x, y):\n    \"\"\"Adds two numbers and prints the result.\"\"\"\n    result = x + y\n    print(\"The sum is:\", result)\n\n# Example usage\na = 5\nb = 3\nadd_numbers(a, b)\n```\n\n✅ **Explanation:**\n\n1. We define a function `add_numbers` that takes two parameters `x` and `y`.\n2. Inside the function, we calculate the sum and print it.\n3. We call the function with `a` and `b` as arguments.\n\nIf you want, I can also show a version where the function **returns** the sum instead of printing it, which is more flexible.",
+    "gemini-2.5": "That's a great way to start thinking about reusable code!\n\nHere is the Python code snippet rewritten using a function to perform the addition and print the result:\n\n```python\ndef add_and_print(a, b):\n    \"\"\"\n    Adds two numbers and prints the result.\n    \"\"\"\n    result = a + b\n    print(result)\n\n# Example usage of the function\nnumber1 = 5\nnumber2 = 3\nadd_and_print(number1, number2)\n```\n\n-----\n\n## 👩‍💻 Key Concepts Used\n\n* **Function Definition (`def`):** We use the `def` keyword followed by the function name (`add_and_print`) and a list of **parameters** in parentheses (`a`, `b`). These parameters are placeholders for the values the function will operate on.\n* **Function Body:** The indented lines of code (`result = a + b` and `print(result)`) are the actions the function performs.\n* **Function Call:** To actually run the code inside the function, we **call** it by writing the function name followed by the **arguments** (the actual values, `number1` and `number2`) in parentheses.\n\nThis new structure makes the code more organized and allows you to easily reuse the `add_and_print` logic with different pairs of numbers without rewriting the addition line.\n\nWould you like to see how to rewrite it so the function **returns** the result instead of printing it directly?",
+    "claude-3": "I've rewritten your code to use a function. Here's what changed:\n\n1. **Created a function** `add_numbers(a, b)` that takes two parameters and returns their sum.\n2. **Called the function** with the values 5 and 3.\n3. **Stored and printed** the result.\n\nThis approach is more reusable—you can now call `add_numbers()` with any two numbers you want to add without duplicating code. The function is also easier to test and maintain.\n\n```python\ndef add_numbers(a, b):\n    \"\"\"Function to add two numbers and return the result.\"\"\"\n    return a + b\n\n# Call the function with values 5 and 3\nresult = add_numbers(5, 3)\nprint(result)\n```"
+  },
+  "last_updated": "2025-11-03"
+}
