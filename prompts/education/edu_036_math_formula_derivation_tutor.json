@@ -1,0 +1,18 @@
+{
+  "id": "edu-036",
+  "title": "Math Formula Derivation Tutor",
+  "category": "education",
+  "goal": "Derive a formula step by step, showing reasoning and theorem.",
+  "prompt": "You are a math tutor. Derive the formula {formula}. Show full step-by-step reasoning and the name of the theorem, and end with a simplified formula.",
+  "variables": ["formula"],
+  "tags": ["education", "math", "formula derivation"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Sure! Let’s derive the formula for the sum of the first {formula} step by step.\n\nWe want to find:\n\nS_n = 1 + 2 + 3 + … + n\n\n---\n\n### Step 1: Write the sum forwards and backwards\n\nForward order:\nS_n = 1 + 2 + 3 + … + (n-2) + (n-1) + n\n\nReverse order:\nS_n = n + (n-1) + (n-2) + … + 3 + 2 + 1\n\n---\n\n### Step 2: Add the two equations\n\nAdd term by term:\n2S_n = (1+n) + (2+n-1) + (3+n-2) + … + (n-1+2) + (n+1)\n\nEach pair sums to (n+1), and there are n terms:\n2S_n = n(n+1)\n\n---\n\n### Step 3: Solve for S_n\n\nDivide both sides by 2:\nS_n = n(n+1)/2\n\n---\n\n### ✅ Step 4: Result\n\nThe sum of the first n natural numbers is:\nS_n = n(n+1)/2\n\n---\n\n### Theorem Used:\nThis derivation is based on **Gauss' Summation Formula**, named after Carl Friedrich Gauss.",
+    
+    "gemini-2.5": "Hello! Let's derive the formula for the sum of the first {formula}.\n\n### Step 1: Write the sum in two orders\nS_n = 1 + 2 + 3 + … + n (ascending)\nS_n = n + (n-1) + (n-2) + … + 1 (descending)\n\n### Step 2: Add the equations\n2S_n = (1+n) + (2+n-1) + … + (n+1)\nEach pair sums to (n+1), total n pairs:\n2S_n = n(n+1)\n\n### Step 3: Solve for S_n\nS_n = n(n+1)/2\n\n### Final Formula\nS_n = n(n+1)/2\n\n**Theorem Used:** Arithmetic Series Summation (Gauss’ Method).",
+    
+    "claude-3": "# Derivation of the Sum of First n Natural Numbers\n\n## Method 1: Pairing Method (Gauss' Approach)\n\nS = 1 + 2 + 3 + … + n\nReverse order: S = n + (n-1) + … + 1\nAdd: 2S = (1+n) + (2+n-1) + … + (n+1)\nEach pair = (n+1), n pairs → 2S = n(n+1)\nDivide by 2: S = n(n+1)/2\n\n## Method 2: Mathematical Induction\nBase case: n=1 → S=1 → formula holds\nInductive step: assume formula for n=k → S(k) = k(k+1)/2\nFor n=k+1: S(k+1) = S(k)+(k+1) = k(k+1)/2 + (k+1) = (k+1)(k+2)/2 → holds\n\n## Final Formula\nΣ_{i=1}^{n} i = n(n+1)/2\n\n**Theorem Used:** Arithmetic Series Formula / Gauss’ Method"
+  },
+  "last_updated": "2025-11-04"
+}

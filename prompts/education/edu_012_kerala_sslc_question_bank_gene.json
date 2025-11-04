@@ -1,0 +1,16 @@
+{
+  "id": "edu-012",
+  "title": "Kerala SSLC Question Bank Generator",
+  "category": "education",
+  "goal": "Generate a grade-specific question bank for Kerala State (SCERT) students.",
+  "prompt": "Generate a {Grade} {subject} Question Bank for Kerala State (SCERT) students, including previous years’ and frequently asked board exam questions, following the SSLC exam pattern with year.",
+  "variables": ["Grade", "subject"],
+  "tags": ["education", "question bank", "Kerala SSLC", "SCERT"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Nice — I’ll create a Kerala (SCERT) Class 10 Social Science **SSLC-style Question Bank** that:\n\n* follows the SSLC exam pattern (sections, marks, time),\n* includes **previous-years’ / frequently asked board-style** questions (with year labels where available), and\n* gives plenty of practice: MCQs, short-answer, long-answer, map/source-based and higher-order questions.\n\n(Full content omitted here for brevity — includes detailed sections A–D, previous-year examples, and references to Kerala SSLC 2024–2020 papers.)",
+    "gemini-2.5": "Certainly! Here is a sample **10th Grade Social Science Question Bank** for Kerala State (SCERT) students, incorporating the SSLC exam pattern and focusing on frequently and previously asked questions.\n\n(Full structured response with sections: Objective, Short Answer, Long Answer, and previous-year questions, including 2020–2024 references.)",
+    "claude-3": "# Kerala SSLC 10th Grade Social Science Question Bank\n\nIncludes comprehensive History, Geography, Civics, and Economics question sets based on SSLC exam patterns with short and long answer sections, map-based, and source-based questions.\n\n(Full 130+ question list covering major chapters and years 2020–2024.)"
+  },
+  "last_updated": "2025-11-04"
+}

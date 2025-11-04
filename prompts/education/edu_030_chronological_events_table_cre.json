@@ -1,0 +1,18 @@
+{
+  "id": "edu-030",
+  "title": "Chronological Events Table Creator",
+  "category": "education",
+  "goal": "Arrange historical events chronologically and present them in table format.",
+  "prompt": "Arrange the following historical events in chronological order and display them as a table. List all the events with appropriate dates. Sort them from earliest to latest.\\n{events}.",
+  "variables": ["events"],
+  "tags": ["education", "history", "chronology"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Here’s a chronological arrangement of the given historical events from World War I, presented in a clear table with dates:\n\n| Date                           | Event                                           |\n| ------------------------------ | ----------------------------------------------- |\n| 28 June 1914                   | Assassination of Archduke Franz Ferdinand       |\n| 28 July 1914                   | Austria-Hungary declares war on Serbia          |\n| 1 August 1914                  | Germany declares war on Russia                  |\n| 3 August 1914                  | Germany declares war on France                  |\n| 4 August 1914                  | Germany invades Belgium; Britain enters the war |\n| 6–12 September 1914            | Battle of the Marne                             |\n| 22 April – 25 May 1915         | Second Battle of Ypres (use of poison gas)      |\n| 21 February – 18 December 1916 | Battle of Verdun                                |\n| 1 July – 18 November 1916      | Battle of the Somme                             |\n| 6 April 1917                   | USA enters the war                              |\n| 11 November 1918               | Armistice signed; fighting ends                 |\n| 28 June 1919                   | Treaty of Versailles signed                     |",
+    
+    "gemini-2.5": "Here is the corrected chronological order of World War I events:\n\n| Event | Date |\n| :--- | :--- |\n| Assassination of Archduke Franz Ferdinand | June 28, 1914 |\n| Austria-Hungary declares war on Serbia | July 28, 1914 |\n| Germany declares war on Russia | August 1, 1914 |\n| Germany declares war on France | August 3, 1914 |\n| Germany invades Belgium; Britain enters the war | August 4, 1914 |\n| Battle of the Marne | September 6–12, 1914 |\n| Second Battle of Ypres (use of poison gas) | April 22 – May 25, 1915 |\n| Battle of Verdun | February 21 – December 18, 1916 |\n| Battle of the Somme | July 1 – November 18, 1916 |\n| USA enters the war | April 6, 1917 |\n| Armistice signed; fighting ends | November 11, 1918 |\n| Treaty of Versailles signed | June 28, 1919 |",
+    
+    "claude-3": "World War I - Historical Events in Chronological Order\n| Date | Event |\n| ---- | ----- |\n| June 28, 1914 | Assassination of Archduke Franz Ferdinand |\n| July 28, 1914 | Austria-Hungary declares war on Serbia |\n| August 1, 1914 | Germany declares war on Russia |\n| August 3, 1914 | Germany declares war on France |\n| August 4, 1914 | Germany invades Belgium; Britain enters the war |\n| September 6-12, 1914 | Battle of the Marne |\n| April 22-May 25, 1915 | Second Battle of Ypres (use of poison gas) |\n| February 21-December 18, 1916 | Battle of Verdun |\n| July 1-November 18, 1916 | Battle of the Somme |\n| April 6, 1917 | USA enters the war |\n| November 11, 1918 | Armistice signed; fighting ends |\n| June 28, 1919 | Treaty of Versailles signed |"
+  },
+  "last_updated": "2025-11-04"
+}
