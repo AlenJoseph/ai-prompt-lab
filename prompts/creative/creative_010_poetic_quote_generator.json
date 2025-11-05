@@ -1,0 +1,16 @@
+{
+  "id": "creative-010",
+  "title": "Poetic Quote Generator",
+  "category": "creative",
+  "goal": "Write poetic quotes reflecting deep emotion.",
+  "prompt": "Follow the examples below to write quotes in poetic language about {emotion}.\nExample 1: 'Sadness is the ocean that teaches the shore to stay.'\nExample 2: 'Joy is sunlight dancing on the edge of time.'\nNow write {n} quotes in poetic style.",
+  "variables": ["emotion", "n"],
+  "tags": ["creative", "poetry", "quotes"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Here are three poetic quotes about sadness:\n\n1. \"Sadness is the quiet rain that lingers on the heart's windowsill.\"\n2. \"Grief is the shadow that folds the soul into gentle whispers.\"\n3. \"Melancholy is the twilight painting the sky with forgotten dreams.\"",
+    "gemini-2.5": "Here are three quotes in a poetic language about sadness:\n\n1. \"Grief is the unseen clock whose ticking measures only loss.\"\n2. \"The heart, in sorrow, is a hushed, darkened room where memory lights a single, flickering flame.\"\n3. \"Sadness is the velvet drape that falls across the window, letting the world exist, but keeping its color out.\"",
+    "claude-3": "Here are three quotes in poetic style about sadness:\n\n1. \"Sadness is the garden where silence learns to bloom.\"\n2. \"Sorrow is the weight that teaches the heart to know its own depth.\"\n3. \"Melancholy is the twilight that lingers when day forgets to leave.\""
+  },
+  "last_updated": "2025-11-05"
+}

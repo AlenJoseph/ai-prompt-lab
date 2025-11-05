@@ -1,0 +1,17 @@
+{
+  "id": "edu-045",
+  "title": "Paragraph Expander",
+  "category": "education",
+  "goal": "Expand short text into detailed paragraph while keeping meaning same.",
+  "prompt": "Expand the given text into a detailed paragraph without changing the meaning.\nText: {text}.",
+  "variables": ["text"],
+  "tags": ["education", "writing", "expansion"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "The sun serves as the primary and most important source of energy for all forms of life on Earth. It provides the light and warmth necessary to sustain the planet’s climate and support various ecosystems. Plants use sunlight to perform photosynthesis, producing food and oxygen that form the foundation of most food chains. In turn, animals, including humans, depend on this energy—either directly by consuming plants or indirectly by eating other animals. Without the sun’s energy, life as we know it would not exist, as it drives weather patterns, supports growth, and maintains the balance of natural processes on Earth.",
+    "gemini-2.5": "The Sun stands as the principal, fundamental source of energy that sustains virtually all life forms across our planet, Earth. Its colossal nuclear fusion reactions continuously release immense amounts of radiant energy, primarily in the form of light and heat. This solar radiation is captured by producers, most notably plants, algae, and certain bacteria, through the process of photosynthesis. This vital conversion process transforms light energy into chemical energy (sugars), forming the base of nearly every terrestrial and aquatic food chain and web. Ultimately, this solar input dictates the climate, drives the water cycle, and powers the biological processes necessary for the existence and survival of every living organism.",
+    "claude-3": "The sun serves as the primary and most fundamental source of energy that sustains all forms of life on our planet. Every living organism, from the smallest microorganism to the largest animal, ultimately depends on the energy that radiates from the sun to survive and thrive. This energy powers the processes that allow plants to grow through photosynthesis, which in turn provides food and oxygen for animals. The sun's warmth regulates Earth's climate and weather patterns, creating the conditions necessary for ecosystems to flourish. Even fossil fuels, which many societies rely on for energy today, are essentially stored sunlight from ancient organisms that lived millions of years ago. Without the constant stream of solar energy reaching Earth, life as we know it would cease to exist, making the sun absolutely essential to the continuation and diversity of life on our world."
+  },
+  "last_updated": "2025-11-05"
+}
+

@@ -1,0 +1,16 @@
+{
+  "id": "edu-044",
+  "title": "Grammar Correction Tutor",
+  "category": "education",
+  "goal": "Correct a sentence grammatically and explain the reason.",
+  "prompt": "Correct the given {sentence} grammatically. Explain what was changed and why (e.g., tense, punctuation, agreement, etc.).",
+  "variables": ["sentence"],
+  "tags": ["education", "grammar", "tutor"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "✅ **Corrected Sentence:** She **doesn’t like** apples.\n\n### 🔍 Explanation:\n\n1. **Error Type:** Subject–verb agreement and verb form.\n2. **Correction Details:**\n   - The subject **“She”** is singular, so the auxiliary verb should be **“does”**, not **“do.”**\n   - When we use **“doesn’t” (does not)**, the main verb (**like**) must be in its **base form**, not **“likes.”**\n3. **Grammar Rule:**\n   - In the simple present tense:\n     - Use **“do”** with plural subjects (e.g., *They don’t like apples.*)\n     - Use **“does”** with singular subjects (e.g., *She doesn’t like apples.*)\n\n✅ **Final Answer:** *She doesn’t like apples.*",
+    "gemini-2.5": "**Corrected Sentence:** She doesn't like apples.\n\n---\n\n## ✏️ Changes and Explanation\n\n| What was Changed | Why |\n| :--- | :--- |\n| **\"don't likes\" → \"doesn't like\"** | **Subject–Verb Agreement and Auxiliary Rule** |\n| | The subject **“She”** is singular, so it requires the auxiliary verb **“does”** (not **“do”**). |\n| | After **“doesn’t”**, the main verb must stay in its **base form** — so **“likes”** becomes **“like.”** |\n| | Correct structure: **Subject (She) + does not (doesn’t) + base verb (like).** |",
+    "claude-3": "**Incorrect:** She don't likes apples.\n\n**Correct:** She doesn't like apples.\n\n---\n\n### Explanation:\n1. **Subject–Verb Agreement:** “She” is third person singular, so use **“doesn't”** instead of **“don’t.”**\n2. **Verb Form:** After **“doesn’t,”** the verb must be in its **base form** — **“like,”** not **“likes.”**\n3. **Extra Word Removed:** “grammatically” at the end was unnecessary and incorrect in context.\n\n✅ **Final Answer:** She doesn’t like apples."
+  },
+  "last_updated": "2025-11-05"
+}

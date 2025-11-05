@@ -1,0 +1,16 @@
+{
+  "id": "edu-39",
+  "title": "Quick Concept Cards",
+  "category": "education",
+  "goal": "Create short concept cards with definitions for easy memorization.",
+  "prompt": "Create quick concept cards.\nExample 1:\nTerm: Atom → Smallest unit of matter.\nExample 2:\nTerm: Molecule →",
+  "variables": [],
+  "tags": ["education", "concept cards", "memorization"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Sure! Here’s a quick set of **concept cards** in the same format 👇\n\n---\n\n**Term:** Molecule → Two or more atoms bonded together.\n**Example:** Water (H₂O) is made of two hydrogen atoms and one oxygen atom.\n\n---\n\n**Term:** Element → A pure substance made of only one type of atom.\n**Example:** Oxygen (O), Hydrogen (H), Iron (Fe).\n\n---\n\n**Term:** Compound → A substance made when two or more elements combine chemically.\n**Example:** Carbon dioxide (CO₂), Salt (NaCl).\n\n---\n\n**Term:** Mixture → Two or more substances combined physically but not chemically.\n**Example:** Air, Salad, Saltwater.\n\n---\n\n**Term:** Ion → An atom or molecule with an electric charge due to gain or loss of electrons.\n**Example:** Na⁺ (sodium ion), Cl⁻ (chloride ion).\n\n---\n\nWould you like me to continue with **more chemistry terms** or switch to **another subject** (like physics or biology)?",
+    "gemini-2.5": "Sure, here is the quick concept card for Molecule:\n\n### Concept Cards 💡\n\n* **Example 1:**\n    Term: **Atom** → Smallest unit of matter.\n* **Example 2:**\n    Term: **Molecule** → **Two or more atoms chemically bonded together; the smallest unit of a compound that retains its properties.**\n\n---\nLearn more about molecules in chemistry here: [2 Easy Definitions of Molecules](https://www.youtube.com/watch?v=X0-sbe7HoEc). This video provides a short explanation of the definition of a molecule.",
+    "claude-3": "📚 Quick Concept Cards\n\n**Atom** → Smallest unit of matter.\n\n**Molecule** → Two or more atoms bonded together.\n\n**Photosynthesis** → Process by which plants convert light energy into chemical energy.\n\n**Mitochondria** → Powerhouse of the cell; produces energy (ATP).\n\n---\n\nI've also created an interactive concept cards tool idea:\n\n**Features:**\n- Pre-loaded cards with examples (Atom, Molecule, Photosynthesis, Mitochondria)\n- Add new cards by typing a term and definition\n- Delete individual cards\n- Clear all cards\n- Clean, visual design with hover effects\n\nUse it as a digital study aid to review and memorize key concepts easily!"
+  },
+  "last_updated": "2025-11-04"
+}

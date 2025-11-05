@@ -1,0 +1,16 @@
+{
+  "id": "edu-050",
+  "title": "Concept QA Generator",
+  "category": "education",
+  "goal": "Generate simple scientific question–answer pairs based on examples.",
+  "prompt": "Example 1:\nQuestion: What is evaporation?\nAnswer: Evaporation is when water turns into vapor due to heat.\nExample 2:\nQuestion: What is a chemical reaction?\nAnswer: It is a process where substances change to form new ones.\nNow create similar Question and Answer for the following:\n{concept_1}\n{concept_2}",
+  "variables": ["concept_1", "concept_2"],
+  "tags": ["education", "science", "qa generation"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "**Example 1:**\n**Question:** What is friction?\n**Answer:** Friction is the force that resists the movement of one surface over another.\n\n**Example 2:**\n**Question:** What is combustion?\n**Answer:** Combustion is a chemical process in which a substance reacts with oxygen to produce heat and light.",
+    "gemini-2.5": "## ❓ Question and Answer for Scientific Concepts\n\n| Concept | Question | Answer |\n| :--- | :--- | :--- |\n| **Friction** | What is friction? | It's a **force that resists motion** when two surfaces rub against each other. |\n| **Combustion** | What is combustion? | It's a rapid **chemical reaction** between a substance and an oxidant, usually oxygen, that produces **heat and light**. |\n\n---\n\nI can create similar quick questions and answers for other scientific concepts if you'd like! For example, concepts like **photosynthesis** or **gravity**.",
+    "claude-3": "**Friction**\nQuestion: What is friction?\nAnswer: Friction is a force that opposes motion between two surfaces in contact with each other.\n\n**Combustion**\nQuestion: What is combustion?\nAnswer: Combustion is a chemical reaction where a substance rapidly combines with oxygen and releases heat and light."
+  },
+  "last_updated": "2025-11-05"
+}
