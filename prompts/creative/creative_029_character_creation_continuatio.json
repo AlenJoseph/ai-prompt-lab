@@ -1,0 +1,17 @@
+{
+  "id": "creative-029",
+  "title": "Character Creation Continuation",
+  "category": "creative",
+  "goal": "Continue a character creation pattern for storytelling.",
+  "prompt": "Continue the following character creation pattern:\nExample 1:\nCharacter Type: Hero\nDescription: Brave and curious\nExample 2:\nCharacter Type: Villain\nDescription: Intelligent but cold.\nNow continue:\nCharacter Type: Heroine\nDescription:",
+  "variables": [],
+  "tags": ["creative", "character creation", "storytelling"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Character Type: Heroine\nDescription: Compassionate and determined.",
+    "gemini-2.5": "Description: Determined and compassionate.",
+    "claude-3": "Character Type: Heroine\nDescription: Strong-willed and compassionate."
+  },
+  "last_updated": "2025-11-06"
+}
+
