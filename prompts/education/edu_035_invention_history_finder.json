@@ -1,0 +1,18 @@
+{
+  "id": "edu-035",
+  "title": "Invention History Finder",
+  "category": "education",
+  "goal": "Provide historical details of a specific invention.",
+  "prompt": "You are a history student. For the invention named {invention}:\n1. Who discovered or invented it.\n2. Year of the invention.\n3. Reason for the invention.\nIf you are unsure, say \"I’m not certain — please verify\" and suggest where to check.",
+  "variables": ["invention"],
+  "tags": ["education", "history", "inventions"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Here’s the information about the invention of the **bulb**:\n\n1. **Inventor/Discoverer:** The electric light bulb is commonly attributed to **Thomas Edison**, but multiple inventors contributed. **Humphry Davy** created an early electric arc lamp in 1802, and **Joseph Swan** in England developed a working incandescent bulb around the same time as Edison.\n\n2. **Year of Invention:** Thomas Edison patented his version of the practical incandescent light bulb in **1879**. Joseph Swan demonstrated his working bulb in **1878**, slightly earlier.\n\n3. **Reason for Invention:** The bulb was invented to provide a safer, more reliable, and longer-lasting source of light than candles or gas lamps, improving daily life, productivity, and industrial work environments.\n\n⚠️ Note: The history involves multiple inventors; exact credit can vary. Verify details using **U.S. Patent Office records**, or sources like **Smithsonian** or **Britannica**.",
+    
+    "gemini-2.5": "The invention of the light bulb was a process involving multiple contributors, but the **first commercially practical incandescent lamp** is generally credited to **Thomas Alva Edison**.\n\n1. **Who Discovered or Invented It:**\n   * Thomas Edison (American) perfected a long-lasting, high-resistance incandescent lamp and developed a complete system for electricity distribution.\n   * Joseph Swan (British) had a functional incandescent lamp slightly earlier; Edison and Swan later merged their companies in Britain.\n\n2. **Year of Invention:**\n   * Edison achieved a working carbon-filament bulb in **October 1879** and received the U.S. patent on **January 27, 1880**.\n\n3. **Reason for Invention:**\n   * To provide a **safe, reliable, and affordable artificial light** alternative to candles, oil lamps, and gas lighting.\n   * Edison's innovation included a complete lighting system for practical use in homes and cities.\n\nFor verification, check historical references such as the **Thomas Edison National Historical Park** or scholarly sources on electrical history.",
+    
+    "claude-3": "# The Light Bulb\n\n**1. Who Invented It:**\nMultiple contributors, but **Thomas Edison** is most credited with inventing the practical incandescent light bulb. **Joseph Swan** (Britain) and **Humphry Davy** (first electric light in 1802) also contributed.\n\n**2. Year of Invention:**\n**1879** is associated with Edison's successful development, though Swan had prototypes in the late 1870s.\n\n**3. Reason for Invention:**\nTo provide a safer, more efficient, and longer-lasting alternative to gas lighting and candles. Edison aimed for an economical, mass-producible bulb.\n\nFor verification, check:\n- Textbooks or course materials\n- Smithsonian Institution or Thomas Edison National Historical Park websites\n- Academic databases if available"
+  },
+  "last_updated": "2025-11-04"
+}

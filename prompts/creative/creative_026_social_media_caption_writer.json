@@ -1,0 +1,18 @@
+{
+  "id": "creative-026",
+  "title": "Social Media Caption Writer",
+  "category": "creative",
+  "goal": "Create captions and hashtags for social media images.",
+  "prompt": "You are a social media caption writer. Based on the {image}, suggest {n} captions and hashtags that fit the photo's mood. Include:\n- Creative captions under 15 words\n- 5-6 hashtags\n- Emotion or theme.",
+  "variables": ["image", "n"],
+  "tags": ["creative", "social media", "caption writing"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "**Emotion/Theme:** Calm • Hopeful • Reflective • Nature’s Beauty\n\n**Captions & Hashtags:**\n\n1. **“Where the sky whispers goodnight.”**\n   #SunsetVibes #GoldenHour #NatureMagic #PeacefulMoments #EveningGlow\n\n2. **“Chasing light before it fades.”**\n   #SunsetLovers #SkyArt #SereneEvening #NatureBeauty #CalmSoul\n\n3. **“The day bows out in color.”**\n   #SunsetMagic #GoldenSky #EveningCalm #MomentsOfPeace #NatureGram\n\n4. **“When silence paints the sky.”**\n   #SunsetDreams #TranquilVibes #SkyLovers #PeaceWithin #SoftGlow\n\n5. **“A reminder that endings can be beautiful too.”**\n   #SunsetThoughts #HopefulEndings #SerenityNow #NatureInspires #EveningHues\n\nWould you like me to make the captions sound **more poetic** or **more Instagram-trendy** next time?",
+    
+    "gemini-2.5": "This is a beautiful theme to work with! Here are 5 options for captions and hashtags that fit different moods of a sunset photo.\n\n| Emotion or Theme | Creative Caption (Under 15 words) | Hashtags (5-6) |\n| :--- | :--- | :--- |\n| **Peace & Calm** | Golden hour silence washes over everything. | #SunsetPeace #TranquilityNow #GoldenHourGlow #PeacefulSky #NatureTherapy #DuskVibes |\n| **Awe & Beauty** | Proof that every ending can be this beautiful. | #SkyOnFire #SunsetAesthetic #PaintedSky #BreathtakingView #NatureArt #ColorPop |\n| **Reflection & Nostalgia** | Pause. Breathe. Remember this moment forever. | #ReflectionTime #SunsetThoughts #QuietMoments #DayDoneRight #EveningLight #Nostalgic |\n| **Travel & Adventure** | Chasing the last light on the open road. | #TravelGram #Wanderlust #RoadTripSunset #AdventureAwaits #SunsetChaser #ExploreMore |\n| **Vibrancy & Energy** | The sky's fiery kiss goodbye until tomorrow. | #FierySky #VibrantColors #SunsetEnergy #GoodVibesOnly #MagicHour #NatureLover |",
+    
+    "claude-3": "I'd love to help you craft the perfect captions for your sunset photo! However, I don't see an image attached to your message. Could you please upload the sunset photo? Once you share it, I'll be able to suggest captions that match its specific mood and lighting.\n\nJust upload the image, and I'll provide you with:\n- 5 creative captions (under 15 words each)\n- 5-6 relevant hashtags for each\n- The emotion or theme each caption captures"
+  },
+  "last_updated": "2025-11-06"
+}

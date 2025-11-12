@@ -1,0 +1,16 @@
+{
+  "id": "code-55",
+  "title": "Extract Details to JSON",
+  "category": "coding",
+  "goal": "Extract structured data from natural language text and convert it into JSON.",
+  "prompt": "Extract the details from the given text into a JSON format. Text 1: “Mary is 30 years old and stays in London.” Output: {“name”:“Mary”, “age”:“30”, “City”:“London”}.{Text 2}",
+  "variables": ["Text 2"],
+  "tags": ["data-extraction", "json-conversion", "coding"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "{\"name\":\"John\",\"age\":\"45\",\"City\":\"New York\"}",
+    "gemini-2.5": "{\"name\":\"John\",\"age\":\"45\",\"City\":\"New York\"}",
+    "claude-3": "{\"name\":\"John\",\"age\":\"45\",\"City\":\"New York\"}"
+  },
+  "last_updated": "2025-11-03"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "code-45",
+  "title": "Debugger",
+  "category": "coding",
+  "goal": "Help debug code in {language} and identify why it produces incorrect output.",
+  "prompt": "I have the following code in {language}. {code} It produces the wrong output for the {input}. Help me debug it.",
+  "variables": ["language", "code", "input"],
+  "tags": ["debugging", "code-fixing", "programming"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Ah! I see the issue. Let’s debug this step by step.\n\nYour code is:\n\n```python\ndef add_numbers(a, b):\n    return a - b\n\nprint(add_numbers(5, 3))\n```\n\n### 1. Problem\n\n* The function is named `add_numbers`, which suggests it should **add** two numbers.\n* But inside the function, you are using `a - b`, which **subtracts** instead of adding.\n\n### 2. Why the output is wrong\n\n* `add_numbers(5, 3)` currently computes `5 - 3 = 2`\n* But if you wanted to **add**, the expected output is `5 + 3 = 8`\n\n### 3. Solution\n\nChange the `-` to `+`:\n\n```python\ndef add_numbers(a, b):\n    return a + b\n\nprint(add_numbers(5, 3))\n```\n\n### 4. Output\n\n```\n8\n```\n\n✅ Now it works correctly.",
+    "gemini-2.5": "Hello! I see the issue.\n\nThe function is named `add_numbers`, suggesting it should perform addition, but the code inside the function is actually performing **subtraction**.\n\n### 🐛 Debugging the Code\n\nYour current Python function is:\n\n```python\ndef add_numbers(a, b):\n    return a - b\n```\n\nWhen you call `print(add_numbers(5, 3))`, it calculates 5 - 3, which results in **2**.\n\nIf the intention was to **add** the numbers, the function should use the `+` operator:\n\n```python\ndef add_numbers(a, b):\n    return a + b\n```\n\n### ✨ Corrected Code\n\nHere is the corrected code:\n\n```python\ndef add_numbers(a, b):\n    # Changed the operation from '-' (subtraction) to '+' (addition)\n    return a + b\n\nprint(add_numbers(5, 3))\n```\n\nThis corrected code will produce the expected output for 5 + 3, which is **8**.",
+    "claude-3": "I found the bug! In your `add_numbers` function, you're using subtraction (`-`) instead of addition (`+`).\n\nHere's the corrected code:\n\n```python\ndef add_numbers(a, b):\n    return a + b\n\nprint(add_numbers(5, 3))\n```\n\n**What was wrong:** Your function was subtracting `b` from `a` (5 - 3 = 2) instead of adding them together.\n\n**What it should do:** With the fix, `add_numbers(5, 3)` will now correctly return `8` instead of `2`.\n\nThe issue was just a simple operator mistake—an easy fix! Make sure the operator matches what the function name suggests it should do."
+  },
+  "last_updated": "2025-11-03"
+}

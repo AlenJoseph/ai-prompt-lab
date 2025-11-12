@@ -1,0 +1,16 @@
+{
+  "id": "code-54",
+  "title": "Task-based Code Generator",
+  "category": "coding",
+  "goal": "Generate working code based on a given task and programming language.",
+  "prompt": "Given a task, language and code snippet, generate code based on the task and language. Input 1: Task: Create a function to add two numbers Language: Python Code: def add(a, b): return a + b. Input 2: Task: Create a function to find the palindrome Language: Python Code:",
+  "variables": [],
+  "tags": ["task-based-code-generation", "coding", "programming"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Here’s the completed code for your second input:\n\n**Input 2:**\n\n* **Task:** Create a function to find the palindrome\n* **Language:** Python\n\n```python\ndef is_palindrome(s):\n    \"\"\"\n    Check if the input string s is a palindrome.\n    Returns True if it is, False otherwise.\n    \"\"\"\n    # Remove spaces and convert to lowercase for uniformity\n    cleaned = s.replace(\" \", \"\").lower()\n    # Check if string is equal to its reverse\n    return cleaned == cleaned[::-1]\n\n# Example usage\nprint(is_palindrome(\"racecar\"))  # True\nprint(is_palindrome(\"hello\"))    # False\n```\n\n✅ **Explanation:**\n\n* `replace(\" \", \"\").lower()` ensures that the check ignores spaces and case differences.\n* `cleaned[::-1]` reverses the string.\n* The function returns `True` if the string equals its reverse, else `False`.",
+    "gemini-2.5": "```python\ndef is_palindrome(s):\n    # Convert to lowercase and remove non-alphanumeric characters\n    s = ''.join(filter(str.isalnum, s)).lower()\n    return s == s[::-1]\n\n# Example usage:\n# print(is_palindrome(\"A man, a plan, a canal: Panama\")) # True\n# print(is_palindrome(\"racecar\")) # True\n# print(is_palindrome(\"hello\")) # False\n```",
+    "claude-3": "```python\ndef is_palindrome(s):\n    \"\"\"\n    Check if a string is a palindrome.\n    Ignores spaces, punctuation, and case.\n    \"\"\"\n    # Remove spaces and punctuation, convert to lowercase\n    cleaned = ''.join(char.lower() for char in s if char.isalnum())\n    # Check if the cleaned string equals its reverse\n    return cleaned == cleaned[::-1]\n\n# Test cases\nprint(is_palindrome(\"racecar\"))  # True\nprint(is_palindrome(\"A man a plan a canal Panama\"))  # True\nprint(is_palindrome(\"hello\"))  # False\nprint(is_palindrome(\"12321\"))  # True\nprint(is_palindrome(\"Was it a car or a cat I saw?\"))  # True\n```"
+  },
+  "last_updated": "2025-11-03"
+}

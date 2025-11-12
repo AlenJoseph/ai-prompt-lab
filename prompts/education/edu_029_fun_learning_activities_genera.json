@@ -1,0 +1,16 @@
+{
+  "id": "edu-028",
+  "title": "Fun Learning Activities Generator",
+  "category": "education",
+  "goal": "Suggest engaging activities for students to learn a concept interactively.",
+  "prompt": "Suggest 3 fun and interactive activities for {grade} students to learn the {concept}.\nFollow the format shown below:\nExample 1:\nGrade: 3\nConcept: Addition\nActivities:\n1. Number Line Jump: ...\n2. Fruit Basket Math: ...\nNow suggest similar activities for:\nGrade: {grade}\nConcept: {concept}",
+  "variables": ["grade", "concept"],
+  "tags": ["education", "fun learning", "interactive activities"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Grade: 3\nConcept: Multiplication\nActivities:\n\n1. Skip Counting Hopscotch: Draw a hopscotch grid with multiples of a number (e.g., 2, 4, 6, 8…). Students hop through the multiples while chanting them aloud.\n2. Array Builder: Give students tiles or blocks to form arrays (e.g., 3 rows of 4 blocks = 12). They can physically arrange the tiles to visualize multiplication.\n3. Multiplication Bingo: Create Bingo cards with multiplication results. Call out questions like “3 × 4” and students cover the answer if it’s on their card.\n\nIf you want, I can create 3 more highly hands-on, movement-based multiplication activities perfect for Grade 3.",
+    "gemini-2.5": "That's a fun request! Here are 3 interactive activities for **3rd-grade students** to learn **multiplication**:\n\n## Fun Multiplication Activities\n\n1. Array City Builders: Provide students with graph paper or small square blocks (like LEGOs). Ask them to 'build' different products by creating arrays (rows and columns). For 3 × 4, they would shade 3 rows of 4 squares or build a 3 × 4 rectangle with blocks. Count total squares/blocks (12) to find the product.\n\n2. Skip-Counting Race: Have students stand in a line. Choose a number (e.g., 5 or 10). The first student says the starting number, the next says the next multiple, continuing the skip-counting sequence. Turn it into a game where a student who misses the number is 'out'.\n\n3. Multiplication Memory Match: Create matching cards with multiplication problems on one card (e.g., 4 × 6) and the answer on the other (e.g., 24). Students flip two cards to find matching pairs, reinforcing fact fluency.",
+    "claude-3": "Grade: 3\nConcept: Multiplication\n\nActivities:\n\n1. Array Building with Objects: Give students manipulatives like blocks, counters, or buttons. Have them create rectangular arrays to represent multiplication problems (e.g., 3 rows of 4 blocks = 12). They physically arrange the items and count them to discover that 3 × 4 = 12.\n\n2. Multiplication Skip Counting Race: Create a hopscotch or stepping path on the floor with numbers. Call out a multiplication fact (e.g., '4 groups of 3!') and students skip count and hop along the path (3, 6, 9, 12) to land on the answer.\n\n3. Equal Groups Scavenger Hunt: Hide objects around the classroom (buttons, crackers, blocks) in small containers. Give students task cards like 'Find 5 bags with 2 objects in each'. Students find the groups, combine them, and record the multiplication sentence (5 × 2 = 10)."
+  },
+  "last_updated": "2025-11-04"
+}

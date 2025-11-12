@@ -1,0 +1,16 @@
+{
+  "id": "edu-013",
+  "title": "Visual Diagram Creator",
+  "category": "education",
+  "goal": "Create colorful visual diagrams to explain concepts simply for learners",
+  "prompt": "Create a colorful visual diagram that helps to explain the {concept} for the learners at {grade}.",
+  "variables": ["concept", "grade"],
+  "tags": ["education", "visual diagram", "learning"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "https://chatgpt.com/backend-api/estuary/content?id=file_000000007d8c7209a03ee2386d97c0aa&ts=489508&p=fs&cid=1&sig=5bf9aec1565fce9e60226ca87e5295c2f0314767b30da961328aba61308eaf5d&v=0",
+    "gemini-2.5": "https://lh3.googleusercontent.com/gg-dl/ABS2GSmOijKxt4f7NK1YFDBdkTPvs9wZPXej4FOUW7l3wCnJ5vAFqvBqWUDsvLjorIYTOpFMBAo2IZ6iaUHxq9Qsf3eVhXaUWGrSJAmhAMu1fwUwWYbRgK-XUs4udhABgRRME5WK-QOMS90NghItW5a3-gvzwkjhyAiHmaT5HD3hho19X2YksQ=s1024-rj",
+    "claude-3": "I've created a colorful, interactive diagram that explains photosynthesis in a way that's easy for fourth graders to understand! Here's what the diagram shows:\nhttps://claude.ai/public/artifacts/95d5fa4b-95d6-4208-8197-43a5eb6e2de3\n\n**The Three Ingredients Plants Need:**\n- **Sunlight** ☀️ - Energy from the sun\n- **Water** 💧 - From the soil through roots\n- **Carbon Dioxide** 🌫️ - From the air they breathe in\n\n**What Happens Inside the Leaves:**\nThe magic happens in the green leaves where a special green color called chlorophyll captures the sunlight and combines all three ingredients together!\n\n**What Plants Make:**\n- **Oxygen** 😮 - The air we breathe out (released back into the air)\n- **Sugar** 🍫 - Food that helps the plant grow big and strong\n\nThe bright colors and simple labels make it easy for students to see how plants are like little factories that turn sunlight, water, and air into food and oxygen. The legend at the bottom helps identify each part of the process!"
+  },
+  "last_updated": "2025-11-04"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "edu-040",
+  "title": "Shape Cards Creator",
+  "category": "education",
+  "goal": "Create shape cards with formula, example, and solved values.",
+  "prompt": "Create shape cards with name, formula, and example.\nExample 1:\nShapes: Rectangle\nFormula: 2(Length + Breadth)\nExample: Length = 6, Breadth = 3, Perimeter of rectangle = 18\nCreate similar cards:\nShapes: {shape_name1}\nShapes: {shape_name2}",
+  "variables": ["shape_name1", "shape_name2"],
+  "tags": ["education", "shape cards", "formulas"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Here are the **shape cards** you asked for 👇\n\n---\n\n### 🟢 **Shape Card 1**\n**Shape:** Circle  \n**Formula:** Perimeter (Circumference) = 2 × π × r  \n**Example:**  \nRadius (r) = 7 cm  \nPerimeter = 2 × 3.14 × 7 = **43.96 cm**\n\n---\n\n### 🔷 **Shape Card 2**\n**Shape:** Hexagon  \n**Formula:** Perimeter = 6 × side  \n**Example:**  \nSide = 5 cm  \nPerimeter = 6 × 5 = **30 cm**\n\n---\n\nWould you like me to make **area cards** also for each shape (with area formula and example)?",
+    "gemini-2.5": "That's a fun idea! Here are the shape cards for a circle and a regular hexagon, following your example format:\n\n## 📐 Shape Cards: Name, Formula, and Example\n\n### **Shape Card 1**\n* **Shape:** Circle 🔵  \n* **Formula (Circumference/Perimeter):** 2πr (where r is the radius)  \n* **Example:** Radius (r) = 7 → Circumference ≈ 2 × (22/7) × 7 = **44**\n\n---\n\n### **Shape Card 2**\n* **Shape:** Regular Hexagon ⬢  \n* **Formula (Perimeter):** 6s (where s is the length of one side)  \n* **Example:** Side length (s) = 5 → Perimeter = 6 × 5 = **30**\n\n---\n\nWould you like me to create more cards for shapes like a **triangle** or a **square**?",
+    "claude-3": "📐 **Shape Cards**\n\n▭ **Rectangle**  \n**Perimeter Formula:** 2(L + B)  \n**Example:** Length = 6, Breadth = 3 → Perimeter = 2(6 + 3) = **18**\n\n● **Circle**  \n**Circumference Formula:** 2πr  \n**Example:** Radius = 5 → Circumference = 2π(5) = 10π ≈ **31.4**\n\n⬡ **Hexagon**  \n**Perimeter Formula:** 6s  \n**Example:** Side = 4 → Perimeter = 6 × 4 = **24**\n\nI've created neat shape cards for Rectangle, Circle, and Hexagon with their formulas and examples! Each card includes:\n- Shape name with an icon\n- Formula for perimeter or circumference\n- Solved example with specific numbers"
+  },
+  "last_updated": "2025-11-05"
+}

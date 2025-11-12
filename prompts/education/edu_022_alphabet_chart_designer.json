@@ -1,0 +1,16 @@
+{
+  "id": "edu-022",
+  "title": "Alphabet Chart Designer",
+  "category": "education",
+  "goal": "Design engaging visual alphabet charts for kindergarten learners.",
+  "prompt": "Design a colorful, engaging alphabet chart for KG students to make learning fun. Each letter should be displayed in order, include uppercase and lowercase for each letter, and add images corresponding to each letter.",
+  "variables": [],
+  "tags": ["education", "alphabet chart", "kindergarten"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "https://chatgpt.com/backend-api/estuary/content?id=file_00000000fc0c71fab90e1fe21572c989&ts=489511&p=fs&cid=1&sig=56fd82956ab48c57023b6fc05b6be7aa73b468c200ac22b8bfdafb733970b00f&v=0",
+    "gemini-2.5": "https://lh3.googleusercontent.com/gg-dl/ABS2GSmaH7ulH2CvcusoZdmyDYz7PFAkr4zPIFTn1Lzs58puqkA8lJi6X_N2TkXv8LNs-D2bjZN67ObmPYrwqMI3qA8wuU_FzSeIwff1n-8TscxQUbY9e1EOpTrYJibfn_7ZBMxNlE5Q-qWpsrUFeiYAWu2v5OheYsNeds-chRJLnITW9kh0=s1024-rj",
+    "claude-3": "https://claude.ai/public/artifacts/9a84f4ac-1868-4aca-854a-d958f8d2117b"
+  },
+  "last_updated": "2025-11-04"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "prod-034",
+  "title": "Study Planner Optimization",
+  "category": "productivity",
+  "goal": "Improve study plans through iterative refinement.",
+  "prompt": "Rewrite the given study planner for more effective learning. Generate at least 3 improved versions. Combine them into a single optimized version.",
+  "variables": [],
+  "tags": ["productivity", "study planning", "optimization"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Absolutely! I’ve created **three improved versions** of your Python learning planner, each optimizing for **engagement, retention, and practical application**, then combined them into a single **optimized weekly plan**. [content truncated for brevity]",
+    "gemini-2.5": "That's a solid, comprehensive base plan! However, to maximize learning effectiveness, I've generated three improved versions focusing on **Spaced Repetition & Interleaving**, **Active Recall & Project Focus**, and **Time-Boxing & Deep Work**, then combined them into a single optimized schedule. [content truncated for brevity]",
+    "claude-3": "# Optimized Weekly Python Programming Learning Plan [content truncated for brevity]"
+  },
+  "last_updated": "2025-11-12"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "code-38",
+  "title": "Data Structure Reference",
+  "category": "coding",
+  "goal": "List and explain types of data structures used in programming with examples.",
+  "prompt": "List and explain the types of data structures used in programming with examples.",
+  "variables": [],
+  "tags": ["data structures", "programming", "examples"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "## Data Structures in Programming\n\nData structures are ways to **organize, store, and manage data** efficiently. They are broadly categorized into **Linear** and **Non-Linear** structures.\n\n## 1. Linear Data Structures\n### a) Array\n- **Description:** Collection of elements of the same type stored in contiguous memory.\n- **Example:** `marks = [85, 90, 78, 92]`\n- **Pros:** Fast access by index.\n- **Cons:** Fixed size in some languages; insertion/deletion is slower.\n\n### b) Linked List\n- **Description:** Sequence of nodes, each with data and a pointer to the next node.\n- **Example:** `Node(10) -> Node(20)`\n- **Pros:** Dynamic size, easy insertion/deletion.\n- **Cons:** Slow access by index.\n\n### c) Stack\n- **Description:** Follows **LIFO** (Last In, First Out).\n- **Example:** Undo feature.\n- Operations: push/pop.\n\n### d) Queue\n- **Description:** Follows **FIFO** (First In, First Out).\n- **Example:** Print jobs.\n- Operations: enqueue/dequeue.\n\n## 2. Non-Linear Data Structures\n### a) Tree\n- **Description:** Hierarchical structure with root and child nodes.\n- **Example:** File system.\n\n### b) Binary Search Tree (BST)\n- **Description:** Each node has at most two children. Left < parent < right.\n- **Example:** Efficient searching.\n\n### c) Graph\n- **Description:** Nodes connected by edges; can be directed/undirected.\n- **Example:** Social networks.\n\n### d) Hash Table / Hash Map\n- **Description:** Stores key-value pairs with fast retrieval.\n- **Example:** Database indexing.\n\n## 3. Summary Table\n| Type | Structure | Example | Access |\n|------|----------|--------|-------|\n| Array | Linear | Marks | Index |\n| Linked List | Linear | Playlist | Sequential |\n| Stack | Linear | Undo | LIFO |\n| Queue | Linear | Print jobs | FIFO |\n| Tree | Non-linear | File system | Hierarchical |\n| BST | Non-linear | Search | Ordered |\n| Graph | Non-linear | Social network | Node/Edge |\n| Hash Table | Non-linear | Database | Key lookup |",
+    "gemini-2.5": "Data structures organize, manage, and store data efficiently. They are categorized into Linear and Non-Linear structures.\n\nLinear Structures: Arrays, Linked Lists, Stacks, Queues. Example: `scores = [85, 92, 78, 95, 88]`\n\nNon-Linear Structures: Trees, Graphs, Hash Tables. Example: `{'USA': '+1', 'IND': '+91'}`",
+    "claude-3": "Data structures are specialized formats for organizing, managing, and storing data efficiently. Main types: Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Hash Tables, Heaps, Sets. Example: `{'name': 'Alice', 'age': 30}`"
+  },
+  "last_updated": "2025-11-03"
+}

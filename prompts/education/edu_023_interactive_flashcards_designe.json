@@ -1,0 +1,16 @@
+{
+  "id": "edu-023",
+  "title": "Interactive Flashcards Designer",
+  "category": "education",
+  "goal": "Design interactive flashcards with images to help students learn concepts easily.",
+  "prompt": "Design interactive flashcards for {grade} students on the {topic}. For each flashcard, include an image.",
+  "variables": ["grade", "topic"],
+  "tags": ["education", "flashcards", "interactive"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Done — I created the 5 interactive vowel flashcards in a canvas titled **“Vowels — Interactive Flashcards (5 cards)”**. It includes front/back content, suggested images (filenames + alt text), tracing activities, mini-games for small groups of five, printable layout notes, and teacher tips.\n\nWould you like me to:\n\n* Generate a printable PDF (2 cards per A4)?\n* Create full-color PNGs for each card (I’ll need whether you prefer photo or illustrated style)?\n\nPick one and tell me style (pastel, bold primary, or illustrated/photo) and I’ll make the next step.",
+    "gemini-2.5": "Here are five interactive flashcards for the vowels. The front of each card shows the letter, and the back shows a word that begins with that vowel.\n\nYou can use these images with the flashcards to help your students associate the vowel sound with a picture!\n\n- [Image of a red apple]\n- [Image of a cartoon elephant]\n- [Image of an ice cream cone]\n- [Image of a bright orange]\n- [Image of a colorful umbrella]",
+    "claude-3": "I've created interactive vowel flashcards for your 5 students! Here's what it includes:\n\n**Features:**\n- **Interactive Flashcards:** Click each card to flip and reveal the vowel sound and example words.\n- **Large Visual Emojis:** Each vowel has a colorful emoji representation (apple for A, elephant for E, ice cream for I, octopus for O, umbrella for U).\n- **Navigation:** Move between vowels with Previous/Next buttons or click the vowel indicators at the bottom.\n- **Student Progress Tracker:** Each student has their own tracker showing which vowels they've learned.\n- **Color-Coded:** Each vowel has its own bright, distinct color for easy recognition.\n- **Mark Learned Button:** Track progress for each student as they master each vowel.\n\nThe students can interact with the flashcards by clicking to flip them, seeing both the letter/emoji and the sound plus example words. Teachers can use the progress tracker to see which students have mastered which vowels!"
+  },
+  "last_updated": "2025-11-04"
+}

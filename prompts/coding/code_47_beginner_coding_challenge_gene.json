@@ -1,0 +1,18 @@
+{
+  "id": "code-47",
+  "title": "Beginner Coding Challenge Generator",
+  "category": "coding",
+  "goal": "Create a beginner-friendly coding challenge with all necessary details.",
+  "prompt": "You are a coding mentor, create a beginner-friendly coding challenge. Include the following details: Title, Problem Statement, Constraints, Input / Output format, Hints, Test Cases.",
+  "variables": [],
+  "tags": ["coding-challenge", "beginner", "programming"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "### Title: Sum of Even Numbers\n\n### Problem Statement:\nYou are given a list of integers. Your task is to write a program that calculates the sum of all even numbers in the list.\n\n### Constraints:\n1. The list can contain up to 1000 integers.\n2. Each integer will be in the range -10^4 to 10^4.\n3. The list can contain both positive and negative numbers, including zero.\n\n### Input Format:\n- The first line contains an integer N, the number of elements in the list.\n- The second line contains N space-separated integers.\n\n### Output Format:\n- Print a single integer — the sum of all even numbers in the list.\n\n### Hints:\n1. An even number is divisible by 2 (i.e., number % 2 == 0).\n2. Use a loop to traverse the list and check if a number is even.\n3. Keep adding even numbers to a running total.\n\n### Test Cases:\n**Example 1:**\nInput:\n5\n1 2 3 4 5\nOutput:\n6\n\n**Example 2:**\nInput:\n6\n-2 0 5 8 -4 7\nOutput:\n2\n\n**Example 3:**\nInput:\n3\n1 3 5\nOutput:\n0",
+    
+    "gemini-2.5": "### Title: The Great Calculator\n\n### Problem Statement:\nCalculate the total score of three tasks by summing their integer scores.\n\n### Constraints:\n- Each score is an integer between 0 and 100 inclusive.\n\n### Input / Output Format:\nInput: Three lines, each with an integer score.\nOutput: A single integer, the sum of the three scores.\n\n### Hints:\n1. Store the input scores in variables.\n2. Convert input to integers if necessary.\n3. Use addition to calculate the total.\n4. Print the total.\n\n### Test Cases:\n1. Input: 10, 20, 30 | Output: 60\n2. Input: 45, 80, 15 | Output: 140\n3. Input: 100, 0, 99 | Output: 199\n4. Input: 100, 100, 100 | Output: 300",
+    
+    "claude-3": "### Title: Sum of Digits\n\n### Problem Statement:\nWrite a program that takes a positive integer as input and calculates the sum of all its digits.\n\n### Constraints:\n- The input number will be between 1 and 1,000,000.\n- Only positive integers.\n- No decimals or negative numbers.\n\n### Input / Output Format:\nInput: A single integer n.\nOutput: A single integer representing the sum of digits.\n\n### Hints:\n1. Convert the number to a string and iterate over digits.\n2. Alternatively, use modulo (%) and division (//) to extract digits.\n3. Keep a running total of the digits.\n\n### Test Cases:\n1. Input: 5 | Output: 5\n2. Input: 123 | Output: 6\n3. Input: 9999 | Output: 36\n4. Input: 1000000 | Output: 1\n5. Input: 456789 | Output: 39"
+  },
+  "last_updated": "2025-11-03"
+}

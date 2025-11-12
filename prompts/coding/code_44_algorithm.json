@@ -1,0 +1,16 @@
+{
+  "id": "code-44",
+  "title": "Algorithm",
+  "category": "coding",
+  "goal": "Explain the logic of a given algorithm in simple terms with examples.",
+  "prompt": "Example 1: Algorithm: Binary Search Explanation: Divides the sorted list in half to locate an element efficiently. Example 2: Algorithm: {algorithm} Explanation: {explanation}.",
+  "variables": ["algorithm", "explanation"],
+  "tags": ["algorithm-explanation", "programming", "education"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Example 2:\nAlgorithm: Linear Search\nExplanation: Checks each element in a list one by one until the target element is found or the list ends. It works on both sorted and unsorted lists but is less efficient for large lists compared to binary search.",
+    "gemini-2.5": "Example 2:\nAlgorithm: Linear Search\nExplanation: Checks each element in the list sequentially until the target element is found, starting from the beginning.",
+    "claude-3": "Example 2:\nAlgorithm: Linear Search\nExplanation: Iterates through each element in a list sequentially from the beginning until the target element is found or the end of the list is reached. This approach examines every item one by one, making it simpler to implement than binary search but less efficient for large datasets since it may require checking many elements before finding the target (or determining it doesn't exist)."
+  },
+  "last_updated": "2025-11-03"
+}

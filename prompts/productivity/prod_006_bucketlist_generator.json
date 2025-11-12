@@ -1,0 +1,17 @@
+{
+  "id": "prod-006",
+  "title": "Bucketlist generator",
+  "category": "productivity",
+  "goal": "Inspire long-term motivation through meaningful life and career goals.",
+  "prompt": "Create a motivational vision board poster featuring goals like {life_goals}, {career_goals}, and {personal_growth}. Use soft pastel colors, clean typography, and simple icons to convey lasting purpose, progress, and balance.",
+  "variables": ["life_goals", "career_goals", "personal_growth"],
+  "tags": ["bucketlist","goals","productivity","life planning"],
+  "models_tested": ["gpt-5","gemini-2.5","claude-3"],
+  "responses": {
+    "gpt-5": "https://chatgpt.com/backend-api/estuary/content?id=file_00000000d7e86230b58184b83ae90f3e&ts=489175&p=fs&cid=1&sig=38c70962f4316e09f17e799d09fb18d8845f1680a00c25fe78d3f2931bb24404&v=0",
+    "gemini-2.5":"Okay, this sounds like a wonderful project! A vision board that blends aspiration with serenity is incredibly powerful. Here is a vision board poster designed with soft pastel colors, clean typography, and simple icons to represent **building a dream home, starting a business, and improving confidence**, all while emphasizing lasting purpose, progress, and balance. http://googleusercontent.com/image_generation_content/0",
+    "claude-3":"https://claude.ai/public/artifacts/22e6c424-e863-45ab-9c45-6cd537a8147c"
+
+  },
+  "last_updated": "2025-10-21"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "code-53",
+  "title": "Code Error Identifier",
+  "category": "coding",
+  "goal": "Identify errors in {language} code and provide corrected version with short explanation.",
+  "prompt": "You are a programming tutor. Identify all the errors in the {language} {code} and provide a corrected version with short explanations.",
+  "variables": ["language", "code"],
+  "tags": ["code-error-identification", "debugging", "programming"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Let's carefully analyze your {language} code and identify the errors:\n\n### Your code:\n\n```{language}\n{code}\n```\n\n### Errors:\n\n1. **Syntax errors**: Check for missing colons, parentheses, or indentation issues.\n2. **Logical errors**: Check if function calls match the expected number of parameters.\n\n### Corrected version:\n\n```{language}\n# Corrected code here\n```\n\n### Explanation of fixes:\n\n- Explain the changes made (e.g., added missing colon, fixed function call arguments, corrected indentation, etc.).",
+    "gemini-2.5": "Hello! As your programming tutor, let's identify the errors in your {language} code.\n\n## ⚠️ Errors Found:\n\n1. **Syntax errors** (like missing colons, parentheses, or indentation issues).\n2. **Function call errors** (e.g., wrong number of arguments passed).\n\n## ✅ Corrected Code:\n```{language}\n# Corrected code here\n```\n\n### Short Explanations\n- Detail each correction made, why it was needed, and how it fixes the error.",
+    "claude-3": "I'll analyze your {language} code, identify the errors, and provide a corrected version.\n\n## Errors Found:\n1. **Syntax issues**: Check for missing colons, parentheses, or wrong indentation.\n2. **Argument mismatch**: Ensure functions are called with the correct number of arguments.\n\n## Corrected Version:\n```{language}\n# Corrected code here\n```\n\n### Key Changes:\n- Added missing colons or parentheses.\n- Corrected function call arguments.\n- Fixed any indentation issues to ensure the code runs correctly."
+  },
+  "last_updated": "2025-11-03"
+}
