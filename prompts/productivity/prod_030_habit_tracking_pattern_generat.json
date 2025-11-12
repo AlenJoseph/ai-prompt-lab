@@ -1,0 +1,16 @@
+{
+  "id": "prod-030",
+  "title": "Habit Tracking Pattern Generator",
+  "category": "productivity",
+  "goal": "Continue a structured habit-tracking system.",
+  "prompt": "Follow the examples below to create a new habit-tracking plan:\nExample 1:\nHabit: Drinking water\nTracking: 8 glasses daily, mark it\nExample 2:\nHabit: Reading\nTracking: 30 minutes every day, log start and end time\nNow continue:\nHabit: {habit_name}\nTracking:",
+  "variables": ["habit_name"],
+  "tags": ["productivity", "habit tracking", "self-improvement"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Habit: Writing\nTracking: Write 500 words daily, note word count and time spent",
+    "gemini-2.5": "Habit: Writing\nTracking: 250 words daily, track the word count and time spent",
+    "claude-3": "Habit: Writing\nTracking: 500 words daily, record word count and time spent writing\n\nThis follows the pattern of your examples by specifying a concrete, measurable goal (500 words) with a clear tracking method (recording the word count and time). You could adjust the word count target based on your personal writing goals—some people might prefer 250 words, others 1000—but the key is having a specific number to aim for and a simple way to log your progress each day."
+  },
+  "last_updated": "2025-11-12"
+}

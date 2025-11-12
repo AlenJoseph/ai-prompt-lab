@@ -1,0 +1,16 @@
+{
+  "id": "prod-041",
+  "title": "Task Breakdown Tips",
+  "category": "productivity",
+  "goal": "Help users simplify tasks for better execution.",
+  "prompt": "Complete the following using examples:\nExample 1:\nTask: Homework\nTip: Break into small sub-tasks\nNow continue:\nTask: {task_name}\nTip:",
+  "variables": ["task_name"],
+  "tags": ["productivity", "task management", "task breakdown"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Task: Learning a new language\n\nTip: Practice daily in short sessions and use real-life conversations\n\nExample: Instead of trying to study an hour straight, spend 15 minutes each day on vocabulary, 10 minutes on listening, and 5 minutes on speaking with a language partner or app.",
+    "gemini-2.5": "## Completing the Task Tip\n\n| Task | Tip |\n| :--- | :--- |\n| **Homework** | **Break into small sub-tasks** (e.g., *Read Chapter 5*, *Answer questions 1-5*, *Review notes*) |\n| **Learning a new language** | **Practice daily, even for short periods** (e.g., *Use a flashcard app for 15 minutes*, *Listen to a foreign podcast during your commute*) |\n\n---\n\n### 📝 More Examples\n\n| Task | Tip |\n| :--- | :--- |\n| **Writing a novel** | **Outline the major plot points** (e.g., *Define the beginning, middle, and end goals; create character profiles*) |\n| **Saving money** | **Track every expense for a month** (e.g., *Use an app or spreadsheet to log all spending and identify non-essential purchases*) |\n| **Mastering a new skill (e.g., playing guitar)** | **Focus on fundamentals before complexity** (e.g., *Perfect basic chords and scales before attempting advanced songs*) |",
+    "claude-3": "Task: Learning a new language\nTip: Immerse yourself in the language through multiple channels\n\nExample: Rather than trying to become fluent all at once, engage with the language in different ways—watch shows with subtitles, listen to podcasts during commutes, read children's books, and have conversations with language partners. Each channel reinforces different skills (listening, reading, speaking, comprehension) and keeps the learning process engaging and sustainable."
+  },
+  "last_updated": "2025-11-12"
+}

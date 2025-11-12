@@ -1,0 +1,16 @@
+{
+  "id": "prod-008",
+  "title": "Reminder Setup Prompt",
+  "category": "productivity",
+  "goal": "Generate task reminder details.",
+  "prompt": "Set a reminder for {task} on {date and time}. Include the following details in your response: • Task description • Date and time • Priority level • Reminder message.",
+  "variables": ["task", "date and time"],
+  "tags": ["productivity", "reminders", "task management"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Here’s your reminder setup:\n\n**📝 Task Description:**\nSubmit the project report\n\n**📅 Date & Time:**\nNovember 15, 2025 — 5:00 PM\n\n**⚡ Priority Level:**\nHigh\n\n**🔔 Reminder Message:**\n“Reminder: It’s time to submit your project report. Please review all sections, ensure formatting is correct, and send it before the deadline!”\n\nWould you like me to reformat it into a calendar entry or notification-style format (e.g., for Google Calendar or system reminder)?",
+    "gemini-2.5": "The reminder has been set for 'Submit the project report.'\n\nHere are the details:\n\n* **Task description:** Submit the project report\n* **Date and time:** Saturday, November 15, 2025, 5:00 PM\n* **Priority level:** Standard (No specific priority level was requested)\n* **Reminder message:** Time to submit the project report.\n\nhttp://googleusercontent.com/action_card_content/1",
+    "claude-3": "I appreciate you wanting to set a reminder, but I should let you know that I don't have the ability to set reminders directly. I can't access your calendar, task management apps, or device settings.\n\nHowever, I can help you create a structured reminder that you can easily enter into whatever system you use. Here are the details:\n\n**Task description:** Submit the project report\n\n**Date and time:** November 15, 2025, at 5:00 PM\n\n**Priority level:** High (since project submissions are typically time-sensitive)\n\n**Reminder message:** 'Don't forget to submit the project report by 5:00 PM today!'\n\nTo actually set this reminder, you can:\n- Use your phone's built-in reminders or alarm app\n- Add it to a calendar app like Google Calendar, Outlook, or Apple Calendar\n- Use a task management tool like Todoist, Microsoft To Do, Asana, or Notion\n- Set it in your email client's task feature\n\nMost of these tools allow you to set notifications in advance (like 30 minutes or 1 hour before) so you have time to wrap up and submit the report. Would you like help formatting this information for a specific app or service?"
+  },
+  "last_updated": "2025-11-12"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "prod-039",
+  "title": "AI Tools for Productivity",
+  "category": "productivity",
+  "goal": "AI Tools for Productivity",
+  "prompt": "Suggest AI tools that can speed up work and improve productivity. Categorize under: Writing and Research, Creativity and Design, Skill Building",
+  "variables": [],
+  "tags": ["productivity", "AI tools", "efficiency"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Here’s a curated list of AI tools to boost productivity, organized by category. Writing & Research: Notion AI (summarizes notes, drafts content), Hemingway Editor (improves readability), Jasper (AI writing assistant), Wordtune (rewrites and refines text), NotebookLM (virtual research assistant), Grammarly (grammar and style correction), Perplexity AI (research summaries), Otter.ai / Fireflies.ai (transcribes meetings). Creativity & Design: Adobe Firefly (AI image generation), Canva AI (design templates and assistance), Figma with AI plugins (UI/UX design and prototyping), Motion (design workflow management), Prompt Board (AI prompt ideas), Midjourney / DALL-E (image generation from text), Runway (AI video editing). Skill Building: ChatGPT / Claude (explains concepts, generates exercises), Docebo (micro-learning modules), TutorWith.ai (adaptive lessons), QANDA (AI tutoring platform), Duolingo Max (AI-driven language learning), Khan Academy (AI-assisted learning paths), Skillshare AI features (course recommendations). Recommended stack: Writing/Documentation: Notion AI + Jasper + Wordtune + Grammarly; Design/Creative Work: Figma + Canva AI + Adobe Firefly; Skill-Building: ChatGPT / Claude + TutorWith.ai + Docebo.",
+    
+    "gemini-2.5": "AI tools are transforming productivity across work domains. Writing and Research: Gemini, ChatGPT, Claude (drafting, brainstorming, summarization), Paperpal, Jenni, Paperguide, Perplexity AI (accelerate literature review, citation generation), Grammarly, Wordtune (grammar, clarity, style correction), Otter.ai, Fireflies.ai (meeting transcription and summaries). Creativity and Design: Midjourney, Adobe Firefly, Canva Magic Studio (rapid image generation), Canva AI, Khroma, Fontjoy (design automation, color palettes, font pairing), Descript, Synthesia, Runway ML (AI video editing and creation), UXPin Merge, Uizard (convert sketches to prototypes, generate code from designs). Skill Building: Google Prompting Essentials (learn prompt engineering), AI-powered learning platforms (data science, cloud, ML training), Workflow Automation Tools (Zapier Agents, Workbeaver AI), Coding Assistants (GitHub Copilot, Cursor). These tools save time, enhance creativity, and accelerate skill acquisition.",
+    
+    "claude-3": "Here are effective AI tools organized by category. Writing and Research: Claude (drafting, editing, brainstorming), Perplexity AI (research summarization and source verification), Grammarly (improves grammar and tone), Notion AI (summarizes notes and generates content). Creativity and Design: Midjourney and DALL-E (image generation from text), Canva AI (template suggestions and graphics creation), Adobe Firefly (image generation and editing), Runway (AI video editing, motion tracking, background removal). Skill Building: ChatGPT and Claude (explain concepts, generate practice exercises, provide tailored learning paths), Duolingo Max (personalized language learning), Khan Academy AI (customized learning paths), Skillshare AI (course recommendations). Use these tools to speed up work, enhance learning, and improve creative output."
+  },
+  "last_updated": "2025-11-12"
+}

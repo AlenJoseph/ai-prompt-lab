@@ -1,0 +1,20 @@
+{
+  "id": "prod-007",
+  "title": "Motivational Vision Board Poster",
+  "category": "productivity",
+  "goal": "Design a digital or printable vision board.",
+  "prompt": "Create a motivational vision board poster featuring goals like {life_goals}, {career_goals}, and {personal_growth}. Use: Soft pastel colors, clean typography, simple icons to convey lasting purpose, and emphasis on progress and balance.",
+  "variables": [
+    "life_goals",
+    "career_goals",
+    "personal_growth"
+  ],
+  "tags": ["productivity", "motivation", "vision board"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "https://chatgpt.com/backend-api/estuary/content?id=file_00000000251871fa819af33ec5be8318&ts=489700&p=fs&cid=1&sig=cf43e42825812b55798f62e55b28f0d38f9076e87e5f1da80a9c3a9bc77118fd&v=0",
+    "gemini-2.5": "Here is a motivational vision board poster for you: http://googleusercontent.com/image_generation_content/0",
+    "claude-3": "I've created a beautiful, inspiring vision board poster for you! Here's what I included:\n\n**Design Features:**\n- **Soft Pastel Palette**: Gradients blend peach, lavender, mint, and beige for a calming, cohesive look\n- **Minimalist Icons**: Sprouting plant 🌱 (life goals), mountain peak 🏔️ (career aspirations), lightbulb 💡 (personal growth), and heart ❤️ (wellness & balance)\n- **Clean Layout**: Four organized goal bubbles with checkmark-style lists, plus an inspirational zone at the bottom\n- **Gentle Effects**: Subtle gradient background with radial glows creating a soft, harmonious feel\n- **Modern Typography**: Clear hierarchy with elegant sans-serif fonts and thoughtful spacing\n\nThe poster emphasizes holistic growth across all life areas and includes motivational elements like a progress indicator to inspire action. You can easily customize the goals and text to match your specific objectives. The design is responsive and looks great on different screen sizes!\nhttps://claude.ai/public/artifacts/184fb845-d0d6-4cf3-bd97-87e6187843da"
+  },
+  "last_updated": "2025-11-12"
+}

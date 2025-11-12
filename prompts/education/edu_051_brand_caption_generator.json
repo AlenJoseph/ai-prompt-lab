@@ -1,0 +1,16 @@
+{
+  "id": "edu-051",
+  "title": "Brand Caption Generator",
+  "category": "education",
+  "goal": "Generate creative and concise captions for brands in various industries.",
+  "prompt": "You are looking for captions for a {Brand_name} which operates in {industry_type} industry. Examples: 1. Nike (sports): Just do it. 2. Dove (Skincare): Real beauty. 3. Mercedes-Benz (Automobile): The Best or Nothing. Now create similar captions for {brand_name}.",
+  "variables": ["{Brand_name}", "{industry_type}", "{brand_name}"],
+  "tags": ["education", "branding", "marketing"],
+  "models_tested": ["gpt-5", "gemini-2.5", "claude-3"],
+  "responses": {
+    "gpt-5": "Here are some creative tagline ideas for **FreshBite** (food industry), following the style of the examples you shared:\n\n1. **FreshBite**: *Savor Every Moment.*\n2. **FreshBite**: *Freshness You Can Taste.*\n3. **FreshBite**: *Bite into Happiness.*\n4. **FreshBite**: *Where Fresh Meets Flavor.*\n5. **FreshBite**: *Eat Fresh, Live Better.*\n6. **FreshBite**: *Good Food, Great Mood.*\n7. **FreshBite**: *Naturally Delicious.*",
+    "gemini-2.5": "Creating a short, memorable, and impactful caption is key for a brand like FreshBite in the food industry.\n\n## 🍎 FreshBite: Caption Ideas\n\n| Category | Caption | Focus/Vibe |\n| :--- | :--- | :--- |\n| **Simplicity/Action** | **Just Eat Good.** | Simple, direct, and focuses on the positive action (like 'Just Do It'). |\n| **Quality/Standard** | **Taste the Real.** | Emphasizes authenticity, freshness, and quality ingredients (like 'Real Beauty'). |\n| **Aspiration/Best** | **Better Food. Better Day.** | Connects eating well with feeling well, setting a high standard (like 'The Best or Nothing'). |\n| **Feeling/Experience** | **The Moment is Fresh.** | Highlights the experience and the immediate freshness of the meal. |\n| **Core Promise** | **Freshness, Delivered.** | A clear, confident statement about the brand's core offering. |\n\n### Top 3 Recommendations:\n1. **FreshBite:** **Taste the Real.**\n2. **FreshBite:** **Better Food. Better Day.**\n3. **FreshBite:** **Freshness, Delivered.**",
+    "claude-3": "Here are some caption ideas for FreshBite that align with the style of those iconic taglines:\n\n1. **Eat Fresh. Live Better.** — Simple, action-oriented, and emphasizes the health/wellness benefit of fresh food.\n2. **Fresh Every Moment.** — Highlights the core promise of freshness and immediacy.\n3. **Freshness Redefined.** — Positions FreshBite as innovating the fresh food space.\n4. **Real Food. Real Fresh.** — Echoes the authenticity approach (like Dove's 'Real beauty') while emphasizing their main value proposition.\n5. **Fresh Starts Here.** — Implies that FreshBite is where quality fresh food begins.\n6. **Nothing But Fresh.** — A confident, absolute statement (similar to Mercedes' 'The Best or Nothing') that commits to freshness as their only standard.\n7. **Taste the Difference.** — Focuses on the sensory experience and quality gap between FreshBite and competitors.\n8. **Fresh. Always.** — Direct, memorable, and reinforces consistency.\n\nRecommended: **'Real Food. Real Fresh.'** — combines authenticity with the core benefit, making it emotionally resonant and concise."
+  },
+  "last_updated": "2025-11-12"
+}
